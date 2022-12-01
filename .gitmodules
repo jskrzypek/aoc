@@ -1,0 +1,6 @@
+[submodule "advent-of-code-2020"]
+	path = advent-of-code-2020
+	url = https://github.com/jskrzypek/advent-of-code-2020
+[submodule "advent-of-code-2021"]
+	path = advent-of-code-2021
+	url = https://github.com/jskrzypek/advent-of-code-2021
