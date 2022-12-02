@@ -28,20 +28,8 @@
    "C Y" [0 2]
    "C Z" [3 3]})
 
-(def
-  game->play
-  {"X" 0
-   "Y" 3
-   "Z" 6})
 
 (defn total-score
-  []
-  (->> input
-       (map (comp play->score #(into [] %) #(clojure.string/split % " ")))
-       flatten
-       (reduce +)))
-
-(defn total-score-2
   []
   (->> input
        (map play->score)
@@ -55,7 +43,43 @@
   input
   )
 
-(comment (download-description) (submit-second!))
+(def
+  game->play->score
+  {"X" {:score 0
+        "A" 3
+        "B" 1
+        "C" 2}
+   "Y" {:score 3
+        "A" 1
+        "B" 2
+        "C" 3}
+   "Z" {:score 6
+        "A" 2
+        "B" 3
+        "C" 1}})
+(defn parsed-game->score
+  [[them outcome]]
+  (let [plays (game->play->score outcome)]
+    (+ (:score plays) (plays them))))
+
+(defn game->score
+  [game]
+  (-> game
+      (clojure.string/split #" ")
+      parsed-game->score))
+
+(defn total-score-2
+  []
+  (->> input
+       (map game->score)
+       (reduce +)))
+
+(comment
+  (download-description)
+  (game->score "A X")
+  (total-score-2)
+  (submit-second! (total-score-2))
+  )
 
 (comment (create-next-day))
 
