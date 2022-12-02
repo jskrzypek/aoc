@@ -1,13 +1,10 @@
 {:paths ["src" "test" "resources"]
  :deps
  {aoc-util/aoc-util      {:git/url "https://github.com/Pyons/aoc-util"
-                          :git/sha "7b835242f0a131822eff96156927df493ebe6abd"}
+                          :git/tag "v0.2.2" :git/sha "6010da5"}
   org.clojure/core.match {:mvn/version "1.0.0"}
   data.deque/data.deque  {:mvn/version "0.1.0"}
   metosin/malli          {:mvn/version "0.2.1"}
   aocd/aocd              {:mvn/version "0.1.1"}
   wing/wing              {:git/url "https://github.com/teknql/wing"
-                          :git/sha "c26ea89255d2d047e69f0132e6bbba5e3143c02d"}
-  net.mikera/core.matrix {:mvn/version "0.62.0"}
-  net.mikera/vectorz-clj {:mvn/version "0.48.0"}
-  funcool/cuerdas        {:mvn/version "2020.03.26-3"}}}
+                          :git/sha "c26ea89255d2d047e69f0132e6bbba5e3143c02d"}}}
