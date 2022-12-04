@@ -10,7 +10,7 @@
     submit-second!]]
   [clojure.set :as set]))
 
-(def input (get!))
+(def input (map char-array (get!)))
 
 (defn char->prio
   [^Character c]
@@ -28,20 +28,23 @@
   "
   )
 
+(defn ruck->compartments
+  [ruck]
+  (split-at (/ (count ruck) 2) ruck))
+
 (defn find-common
-  [ruck] 
-  (->> ruck
-       char-array
-       (split-at (/ (count ruck) 2))
-       (map #(into #{} %))
+  [rucks]
+  (->> rucks
+       (map set)
        (reduce set/intersection)
-  ))
+       first))
+
 
 (def ruck->prio
-  (comp (juxt identity char->prio) first find-common))
+  (comp (juxt identity char->prio) find-common))
 
 (def sum-prios
-  (transduce (map (comp second ruck->prio)) + input))
+  (transduce (map (comp second ruck->prio ruck->compartments)) + input))
 
 (comment
   (download-description)
@@ -49,12 +52,26 @@
   (->> "helloHELLO" char-array (map int))
   sum-prios
   (->> input (map ruck->prio))
-  (find-common "rhPrSgfvJPfmwsTpLcsV")
+  (->> "rhPrSgfvJPfmwsTpLcsV"
+       char-array
+       ruck->compartments
+       find-common)
+  (ruck->compartments "rhPrSgfvJPfmwsTpLcsV") 
   )
+
+(def sum-group-prios
+  (->> input
+       (partition-all 3)
+       (map (comp char->prio find-common))
+       (reduce +)))
 
 (comment
   (download-description)
-  (submit-second!)
+  sum-group-prios
+  (transduce (comp find-common (take 3))
+             + input)
+  input
+  (submit-second! sum-group-prios)
   )
 
 (comment (create-next-day))
