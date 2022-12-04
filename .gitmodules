@@ -4,3 +4,6 @@
 [submodule "advent-of-code-2021"]
 	path = advent-of-code-2021
 	url = https://github.com/jskrzypek/advent-of-code-2021
+[submodule "external/russmatney"]
+	path = external/russmatney
+	url = https://github.com/russmatney/advent-of-code
