@@ -36,7 +36,6 @@
   (->> input
       (filter (some-fn ⊇? ⊆?))
       count))
-
 (comment
   input
   (count input)
@@ -46,9 +45,27 @@
   (submit-first! num-contains)
   )
 
+(defn loverlap?
+  [[[min1 max1] [_ max2]]]
+  (when (and (<= min1 max2) (>= max1 max2))
+    true))
+
+(defn roverlap?
+  [[[_ max1] [min2 max2]]]
+  (when (and (<= min2 max1) (>= max2 max1))
+    true))
+
+(def num-overlaps
+  (->> input
+      (filter (some-fn loverlap? roverlap?))
+      count))
+
 (comment
+  num-overlaps
+  (filter (some-fn loverlap? roverlap?) input)
+  (roverlap? '((3 11) (12 12)))
   (download-description)
-  (submit-second!)
+  (submit-second! num-overlaps)
   )
 
 (comment (create-next-day))
