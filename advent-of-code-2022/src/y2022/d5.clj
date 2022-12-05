@@ -79,9 +79,33 @@
   (submit-first! "HBTMTBSDC")
   )
 
+(defn execute-move-2
+  [stacks n from to]
+  (let [to- (get stacks to)
+        from- (get stacks from)
+        rem (- (count from-) n)]
+    (assoc stacks
+           from (into [] (take rem from-))
+           to (apply conj to- (drop rem from-)))))
+
+(def final-state-2
+  (let [{:keys [stacks instructions]} input]
+    (loop [stacks stacks
+           instructions instructions]
+      (if-not (seq instructions)
+        stacks
+        (recur
+         (apply execute-move-2 stacks (first instructions))
+         (rest instructions))))))
+
+(def message-2
+  (->> (range 1 (+ (count final-state-2) 1))
+       (mapv (comp peek final-state-2))))
+
 (comment
+  message-2
   (download-description)
-  (submit-second!)
+  (submit-second! "PQTJRSHWS")
   )
 
 (comment (create-next-day))
