@@ -1,10 +1,15 @@
 {:paths ["src" "test" "resources"]
  :deps
- {aoc-util/aoc-util      {:git/url "https://github.com/Pyons/aoc-util"
-                          :git/tag "v0.2.2" :git/sha "6010da5"}
+ {aoc-util/aoc-util      {:local/root "../../../Pyons/aoc-util"}
+;;   aoc-util/aoc-util      {:git/url "https://github.com/Pyons/aoc-util"
+;;                           :git/tag "v0.2.2" :git/sha "6010da5"}
   org.clojure/core.match {:mvn/version "1.0.0"}
   data.deque/data.deque  {:mvn/version "0.1.0"}
   metosin/malli          {:mvn/version "0.2.1"}
   aocd/aocd              {:mvn/version "0.1.1"}
   wing/wing              {:git/url "https://github.com/teknql/wing"
-                          :git/sha "c26ea89255d2d047e69f0132e6bbba5e3143c02d"}}}
+                          :git/sha "c26ea89255d2d047e69f0132e6bbba5e3143c02d"}
+  instaparse/instaparse          {:mvn/version "1.4.10"}
+  babashka/babashka.curl         {:mvn/version "0.1.2"}
+  babashka/babashka.pods         {:mvn/version "0.1.0"}
+  babashka/fs                    {:mvn/version "0.2.12"}}}
