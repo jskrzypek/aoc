@@ -188,7 +188,7 @@
          [[cmds files] & output] output]
     (let [path (resolve-cwd path cmds)]
       (if (every? empty? [cmds files output])
-        (get tree "/")
+        (clojure.walk/postwalk calculate-sizes (get tree "/"))
         (recur path
                (-> tree
                    (assoc-in (conj path :size)
@@ -292,11 +292,27 @@
                     "dszrvpzc" {:size 0, :path "//nhqwt/mcnjwwfr/dqp/rpchqq/lrphzrv/tln/vnjfrhp/dqp/dcqnblb/zprprf/dszrvpzc"}}})
   )
 
+(def total-space
+  70000000)
+
+(defn target-dir
+  [tree space-needed]
+  (let [free-space (- total-space (:size tree))
+        need-to-free (- space-needed free-space)]
+    (->> tree
+         (tree-seq associative? child-dirs)
+         (filter (comp (partial <= need-to-free) :size))
+         (sort-by :size)
+         (take 2)
+         (map (juxt :path :size)))))
+
 (comment
+  (- (- total-space (:size
+                     (make-tree input))))
+  (target-dir (make-tree input) 30000000)
   (download-description)
-  (submit-second!)
+  (submit-second! 4978279)
+  
   )
-
-
 (comment (create-next-day))
 
