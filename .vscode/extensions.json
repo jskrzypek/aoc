@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "ms-vscode.cpptools",
+        "betterthantomorrow.joyride",
+        "betterthantomorrow.calva",
+        "borkdude.clj-kondo",
+        "ziglang.vscode-zig",
+    ]
+}
