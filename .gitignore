@@ -4,5 +4,7 @@
 .lsp/
 .nrepl-port
 
+.history
+
 */src/user.clj
 resources/
