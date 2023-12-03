@@ -11,6 +11,24 @@ pub const gpa = gpa_impl.allocator();
 
 // Add utility functions here
 
+pub fn repeat(s: []const u8, times: usize, allocator: Allocator) ![]u8 {
+    const repeated = try allocator.alloc(u8, @max(0, s.len * times));
+    @memset(repeated, s);
+    // if (times <= 0) {
+    //     return repeated;
+    // }
+
+    // var i: usize = 0;
+    // while (i < s.len * times) : (i += 1) {
+    //     if (s.len == 1) {
+    //         repeated[i] = s[0];
+    //     } else {
+    //         repeated[i] = s[i % 2];
+    //     }
+    // }
+
+    return repeated;
+}
 
 // Useful stdlib functions
 const tokenize = std.mem.tokenize;
