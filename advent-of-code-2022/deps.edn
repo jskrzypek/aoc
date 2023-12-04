@@ -9,7 +9,8 @@
   aocd/aocd              {:mvn/version "0.1.1"}
   wing/wing              {:git/url "https://github.com/teknql/wing"
                           :git/sha "c26ea89255d2d047e69f0132e6bbba5e3143c02d"}
-  instaparse/instaparse          {:mvn/version "1.4.10"}
-  babashka/babashka.curl         {:mvn/version "0.1.2"}
-  babashka/babashka.pods         {:mvn/version "0.1.0"}
-  babashka/fs                    {:mvn/version "0.2.12"}}}
+  instaparse/instaparse  {:mvn/version "1.4.10"}
+  babashka/babashka.curl {:mvn/version "0.1.2"}
+  babashka/babashka.pods {:mvn/version "0.1.0"}
+  babashka/fs            {:mvn/version "0.2.12"}
+  net.mikera/core.matrix {:mvn/version "0.63.0"}}}
