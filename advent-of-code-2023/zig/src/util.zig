@@ -30,34 +30,28 @@ pub fn repeat(s: []const u8, times: usize, allocator: Allocator) ![]u8 {
     return repeated;
 }
 
-pub fn range(start: anytype, stop: @TypeOf(start), step: @TypeOf(start), allocator: Allocator) []@TypeOf(start) {
+pub fn range(start: anytype, stop: @TypeOf(start), step: @TypeOf(start), allocator: Allocator) ![]@TypeOf(start) {
     const T = @TypeOf(start);
 
     assert(start <= stop);
     assert(step > 0);
 
-    if (start == stop) {
-        return []T{};
-    } else if (start + step >= stop) {
-        return []T{start};
-    }
-
-    const r = ArrayList(T).initCapacity(allocator, ((stop - start) / step) + 1);
+    var r = try ArrayList(T).initCapacity(allocator, ((stop - start) / step) + 1);
     defer r.deinit();
 
     var i = start;
 
-    while (i < stop) : (i += step) r.append(i);
+    while (i < stop) : (i += step) try r.append(i);
 
     return r.toOwnedSlice();
 }
 
-pub fn rep(x: anytype, times: usize, allocator: Allocator) []@TypeOf(x) {
+pub fn rep(x: anytype, times: usize, allocator: Allocator) ![]@TypeOf(x) {
     const T = @TypeOf(x);
-    const r = ArrayList(T).initCapacity(allocator, times);
+    var r = try ArrayList(T).initCapacity(allocator, times);
     defer r.deinit();
 
-    @memset(r.items, x);
+    try r.appendNTimes(x, times);
 
     return r.toOwnedSlice();
 }

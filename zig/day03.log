@@ -1,0 +1,1045 @@
+Board: source.len 19740 | w*h: 141*140 | first '\n': 140
+{36..38,0,[2]const u8: '18' (source: '18')} day03.PointList{ .x = { 36, 37 }, .y = { 0, 0 }, .index = 0 }
+{48..51,0,[3]const u8: '889' (source: '889')} day03.PointList{ .x = { 48, 49, 50 }, .y = { 0, 0, 0 }, .index = 0 }
+{52..55,0,[3]const u8: '270' (source: '270')} day03.PointList{ .x = { 52, 53, 54 }, .y = { 0, 0, 0 }, .index = 0 }
+{60..63,0,[3]const u8: '748' (source: '748')} day03.PointList{ .x = { 60, 61, 62 }, .y = { 0, 0, 0 }, .index = 0 }
+{64..67,0,[3]const u8: '280' (source: '280')} day03.PointList{ .x = { 64, 65, 66 }, .y = { 0, 0, 0 }, .index = 0 }
+{70..73,0,[3]const u8: '997' (source: '997')} day03.PointList{ .x = { 70, 71, 72 }, .y = { 0, 0, 0 }, .index = 0 }
+{90..93,0,[3]const u8: '617' (source: '617')} day03.PointList{ .x = { 90, 91, 92 }, .y = { 0, 0, 0 }, .index = 0 }
+{107..110,0,[3]const u8: '622' (source: '622')} day03.PointList{ .x = { 107, 108, 109 }, .y = { 0, 0, 0 }, .index = 0 }
+{118..121,0,[3]const u8: '763' (source: '763')} day03.PointList{ .x = { 118, 119, 120 }, .y = { 0, 0, 0 }, .index = 0 }
+{133..136,0,[3]const u8: '476' (source: '476')} day03.PointList{ .x = { 133, 134, 135 }, .y = { 0, 0, 0 }, .index = 0 }
+{3..6,1,[3]const u8: '529' (source: '529')} day03.PointList{ .x = { 3, 4, 5 }, .y = { 1, 1, 1 }, .index = 0 }
+{12..15,1,[3]const u8: '434' (source: '434')} day03.PointList{ .x = { 12, 13, 14 }, .y = { 1, 1, 1 }, .index = 0 }
+{20..23,1,[3]const u8: '191' (source: '191')} day03.PointList{ .x = { 20, 21, 22 }, .y = { 1, 1, 1 }, .index = 0 }
+{25..28,1,[3]const u8: '489' (source: '489')} day03.PointList{ .x = { 25, 26, 27 }, .y = { 1, 1, 1 }, .index = 0 }
+{31..34,1,[3]const u8: '717' (source: '717')} day03.PointList{ .x = { 31, 32, 33 }, .y = { 1, 1, 1 }, .index = 0 }
+{111..114,1,[3]const u8: '606' (source: '606')} day03.PointList{ .x = { 111, 112, 113 }, .y = { 1, 1, 1 }, .index = 0 }
+{126..129,1,[3]const u8: '760' (source: '760')} day03.PointList{ .x = { 126, 127, 128 }, .y = { 1, 1, 1 }, .index = 0 }
+{8..11,2,[3]const u8: '473' (source: '473')} day03.PointList{ .x = { 8, 9, 10 }, .y = { 2, 2, 2 }, .index = 0 }
+{44..47,2,[3]const u8: '182' (source: '182')} day03.PointList{ .x = { 44, 45, 46 }, .y = { 2, 2, 2 }, .index = 0 }
+{53..56,2,[3]const u8: '812' (source: '812')} day03.PointList{ .x = { 53, 54, 55 }, .y = { 2, 2, 2 }, .index = 0 }
+{64..67,2,[3]const u8: '493' (source: '493')} day03.PointList{ .x = { 64, 65, 66 }, .y = { 2, 2, 2 }, .index = 0 }
+{68..70,2,[2]const u8: '84' (source: '84')} day03.PointList{ .x = { 68, 69 }, .y = { 2, 2 }, .index = 0 }
+{74..77,2,[3]const u8: '793' (source: '793')} day03.PointList{ .x = { 74, 75, 76 }, .y = { 2, 2, 2 }, .index = 0 }
+{87..90,2,[3]const u8: '794' (source: '794')} day03.PointList{ .x = { 87, 88, 89 }, .y = { 2, 2, 2 }, .index = 0 }
+{97..100,2,[3]const u8: '589' (source: '589')} day03.PointList{ .x = { 97, 98, 99 }, .y = { 2, 2, 2 }, .index = 0 }
+{102..105,2,[3]const u8: '407' (source: '407')} day03.PointList{ .x = { 102, 103, 104 }, .y = { 2, 2, 2 }, .index = 0 }
+{107..109,2,[2]const u8: '41' (source: '41')} day03.PointList{ .x = { 107, 108 }, .y = { 2, 2 }, .index = 0 }
+{134..136,2,[2]const u8: '68' (source: '68')} day03.PointList{ .x = { 134, 135 }, .y = { 2, 2 }, .index = 0 }
+{2..5,3,[3]const u8: '380' (source: '380')} day03.PointList{ .x = { 2, 3, 4 }, .y = { 3, 3, 3 }, .index = 0 }
+{22..25,3,[3]const u8: '553' (source: '553')} day03.PointList{ .x = { 22, 23, 24 }, .y = { 3, 3, 3 }, .index = 0 }
+{27..30,3,[3]const u8: '559' (source: '559')} day03.PointList{ .x = { 27, 28, 29 }, .y = { 3, 3, 3 }, .index = 0 }
+{32..35,3,[3]const u8: '105' (source: '105')} day03.PointList{ .x = { 32, 33, 34 }, .y = { 3, 3, 3 }, .index = 0 }
+{40..43,3,[3]const u8: '749' (source: '749')} day03.PointList{ .x = { 40, 41, 42 }, .y = { 3, 3, 3 }, .index = 0 }
+{113..116,3,[3]const u8: '908' (source: '908')} day03.PointList{ .x = { 113, 114, 115 }, .y = { 3, 3, 3 }, .index = 0 }
+{118..121,3,[3]const u8: '603' (source: '603')} day03.PointList{ .x = { 118, 119, 120 }, .y = { 3, 3, 3 }, .index = 0 }
+{45..48,4,[3]const u8: '600' (source: '600')} day03.PointList{ .x = { 45, 46, 47 }, .y = { 4, 4, 4 }, .index = 0 }
+{57..60,4,[3]const u8: '441' (source: '441')} day03.PointList{ .x = { 57, 58, 59 }, .y = { 4, 4, 4 }, .index = 0 }
+{69..72,4,[3]const u8: '490' (source: '490')} day03.PointList{ .x = { 69, 70, 71 }, .y = { 4, 4, 4 }, .index = 0 }
+{76..79,4,[3]const u8: '366' (source: '366')} day03.PointList{ .x = { 76, 77, 78 }, .y = { 4, 4, 4 }, .index = 0 }
+{104..107,4,[3]const u8: '225' (source: '225')} day03.PointList{ .x = { 104, 105, 106 }, .y = { 4, 4, 4 }, .index = 0 }
+{109..112,4,[3]const u8: '488' (source: '488')} day03.PointList{ .x = { 109, 110, 111 }, .y = { 4, 4, 4 }, .index = 0 }
+{124..127,4,[3]const u8: '456' (source: '456')} day03.PointList{ .x = { 124, 125, 126 }, .y = { 4, 4, 4 }, .index = 0 }
+{136..139,4,[3]const u8: '224' (source: '224')} day03.PointList{ .x = { 136, 137, 138 }, .y = { 4, 4, 4 }, .index = 0 }
+{35..38,5,[3]const u8: '831' (source: '831')} day03.PointList{ .x = { 35, 36, 37 }, .y = { 5, 5, 5 }, .index = 0 }
+{90..93,5,[3]const u8: '146' (source: '146')} day03.PointList{ .x = { 90, 91, 92 }, .y = { 5, 5, 5 }, .index = 0 }
+{128..131,5,[3]const u8: '194' (source: '194')} day03.PointList{ .x = { 128, 129, 130 }, .y = { 5, 5, 5 }, .index = 0 }
+{2..5,6,[3]const u8: '730' (source: '730')} day03.PointList{ .x = { 2, 3, 4 }, .y = { 6, 6, 6 }, .index = 0 }
+{48..51,6,[3]const u8: '359' (source: '359')} day03.PointList{ .x = { 48, 49, 50 }, .y = { 6, 6, 6 }, .index = 0 }
+{57..60,6,[3]const u8: '462' (source: '462')} day03.PointList{ .x = { 57, 58, 59 }, .y = { 6, 6, 6 }, .index = 0 }
+{74..77,6,[3]const u8: '138' (source: '138')} day03.PointList{ .x = { 74, 75, 76 }, .y = { 6, 6, 6 }, .index = 0 }
+{82..84,6,[2]const u8: '49' (source: '49')} day03.PointList{ .x = { 82, 83 }, .y = { 6, 6 }, .index = 0 }
+{86..89,6,[3]const u8: '713' (source: '713')} day03.PointList{ .x = { 86, 87, 88 }, .y = { 6, 6, 6 }, .index = 0 }
+{99..102,6,[3]const u8: '342' (source: '342')} day03.PointList{ .x = { 99, 100, 101 }, .y = { 6, 6, 6 }, .index = 0 }
+{137..140,6,[3]const u8: '418' (source: '418')} day03.PointList{ .x = { 137, 138, 139 }, .y = { 6, 6, 6 }, .index = 0 }
+{9..12,7,[3]const u8: '907' (source: '907')} day03.PointList{ .x = { 9, 10, 11 }, .y = { 7, 7, 7 }, .index = 0 }
+{19..22,7,[3]const u8: '526' (source: '526')} day03.PointList{ .x = { 19, 20, 21 }, .y = { 7, 7, 7 }, .index = 0 }
+{38..41,7,[3]const u8: '274' (source: '274')} day03.PointList{ .x = { 38, 39, 40 }, .y = { 7, 7, 7 }, .index = 0 }
+{52..55,7,[3]const u8: '346' (source: '346')} day03.PointList{ .x = { 52, 53, 54 }, .y = { 7, 7, 7 }, .index = 0 }
+{62..65,7,[3]const u8: '876' (source: '876')} day03.PointList{ .x = { 62, 63, 64 }, .y = { 7, 7, 7 }, .index = 0 }
+{78..81,7,[3]const u8: '725' (source: '725')} day03.PointList{ .x = { 78, 79, 80 }, .y = { 7, 7, 7 }, .index = 0 }
+{94..97,7,[3]const u8: '376' (source: '376')} day03.PointList{ .x = { 94, 95, 96 }, .y = { 7, 7, 7 }, .index = 0 }
+{119..122,7,[3]const u8: '541' (source: '541')} day03.PointList{ .x = { 119, 120, 121 }, .y = { 7, 7, 7 }, .index = 0 }
+{125..128,7,[3]const u8: '600' (source: '600')} day03.PointList{ .x = { 125, 126, 127 }, .y = { 7, 7, 7 }, .index = 0 }
+{5..8,8,[3]const u8: '747' (source: '747')} day03.PointList{ .x = { 5, 6, 7 }, .y = { 8, 8, 8 }, .index = 0 }
+{35..37,8,[2]const u8: '10' (source: '10')} day03.PointList{ .x = { 35, 36 }, .y = { 8, 8 }, .index = 0 }
+{45..48,8,[3]const u8: '422' (source: '422')} day03.PointList{ .x = { 45, 46, 47 }, .y = { 8, 8, 8 }, .index = 0 }
+{58..60,8,[2]const u8: '86' (source: '86')} day03.PointList{ .x = { 58, 59 }, .y = { 8, 8 }, .index = 0 }
+{89..92,8,[3]const u8: '728' (source: '728')} day03.PointList{ .x = { 89, 90, 91 }, .y = { 8, 8, 8 }, .index = 0 }
+{9..12,9,[3]const u8: '486' (source: '486')} day03.PointList{ .x = { 9, 10, 11 }, .y = { 9, 9, 9 }, .index = 0 }
+{21..24,9,[3]const u8: '349' (source: '349')} day03.PointList{ .x = { 21, 22, 23 }, .y = { 9, 9, 9 }, .index = 0 }
+{54..57,9,[3]const u8: '696' (source: '696')} day03.PointList{ .x = { 54, 55, 56 }, .y = { 9, 9, 9 }, .index = 0 }
+{95..98,9,[3]const u8: '831' (source: '831')} day03.PointList{ .x = { 95, 96, 97 }, .y = { 9, 9, 9 }, .index = 0 }
+{103..106,9,[3]const u8: '539' (source: '539')} day03.PointList{ .x = { 103, 104, 105 }, .y = { 9, 9, 9 }, .index = 0 }
+{107..110,9,[3]const u8: '195' (source: '195')} day03.PointList{ .x = { 107, 108, 109 }, .y = { 9, 9, 9 }, .index = 0 }
+{119..122,9,[3]const u8: '202' (source: '202')} day03.PointList{ .x = { 119, 120, 121 }, .y = { 9, 9, 9 }, .index = 0 }
+{14..17,10,[3]const u8: '592' (source: '592')} day03.PointList{ .x = { 14, 15, 16 }, .y = { 10, 10, 10 }, .index = 0 }
+{62..65,10,[3]const u8: '592' (source: '592')} day03.PointList{ .x = { 62, 63, 64 }, .y = { 10, 10, 10 }, .index = 0 }
+{71..74,10,[3]const u8: '847' (source: '847')} day03.PointList{ .x = { 71, 72, 73 }, .y = { 10, 10, 10 }, .index = 0 }
+{81..84,10,[3]const u8: '676' (source: '676')} day03.PointList{ .x = { 81, 82, 83 }, .y = { 10, 10, 10 }, .index = 0 }
+{90..93,10,[3]const u8: '365' (source: '365')} day03.PointList{ .x = { 90, 91, 92 }, .y = { 10, 10, 10 }, .index = 0 }
+{127..130,10,[3]const u8: '469' (source: '469')} day03.PointList{ .x = { 127, 128, 129 }, .y = { 10, 10, 10 }, .index = 0 }
+{1..4,11,[3]const u8: '542' (source: '542')} day03.PointList{ .x = { 1, 2, 3 }, .y = { 11, 11, 11 }, .index = 0 }
+{32..35,11,[3]const u8: '385' (source: '385')} day03.PointList{ .x = { 32, 33, 34 }, .y = { 11, 11, 11 }, .index = 0 }
+{39..41,11,[2]const u8: '60' (source: '60')} day03.PointList{ .x = { 39, 40 }, .y = { 11, 11 }, .index = 0 }
+{58..61,11,[3]const u8: '329' (source: '329')} day03.PointList{ .x = { 58, 59, 60 }, .y = { 11, 11, 11 }, .index = 0 }
+{67..70,11,[3]const u8: '657' (source: '657')} day03.PointList{ .x = { 67, 68, 69 }, .y = { 11, 11, 11 }, .index = 0 }
+{99..102,11,[3]const u8: '355' (source: '355')} day03.PointList{ .x = { 99, 100, 101 }, .y = { 11, 11, 11 }, .index = 0 }
+{116..118,11,[2]const u8: '52' (source: '52')} day03.PointList{ .x = { 116, 117 }, .y = { 11, 11 }, .index = 0 }
+{132..135,11,[3]const u8: '352' (source: '352')} day03.PointList{ .x = { 132, 133, 134 }, .y = { 11, 11, 11 }, .index = 0 }
+{13..16,12,[3]const u8: '994' (source: '994')} day03.PointList{ .x = { 13, 14, 15 }, .y = { 12, 12, 12 }, .index = 0 }
+{22..25,12,[3]const u8: '937' (source: '937')} day03.PointList{ .x = { 22, 23, 24 }, .y = { 12, 12, 12 }, .index = 0 }
+{44..46,12,[2]const u8: '45' (source: '45')} day03.PointList{ .x = { 44, 45 }, .y = { 12, 12 }, .index = 0 }
+{51..53,12,[2]const u8: '48' (source: '48')} day03.PointList{ .x = { 51, 52 }, .y = { 12, 12 }, .index = 0 }
+{76..79,12,[3]const u8: '835' (source: '835')} day03.PointList{ .x = { 76, 77, 78 }, .y = { 12, 12, 12 }, .index = 0 }
+{82..85,12,[3]const u8: '791' (source: '791')} day03.PointList{ .x = { 82, 83, 84 }, .y = { 12, 12, 12 }, .index = 0 }
+{87..90,12,[3]const u8: '654' (source: '654')} day03.PointList{ .x = { 87, 88, 89 }, .y = { 12, 12, 12 }, .index = 0 }
+{110..112,12,[2]const u8: '75' (source: '75')} day03.PointList{ .x = { 110, 111 }, .y = { 12, 12 }, .index = 0 }
+{125..128,12,[3]const u8: '523' (source: '523')} day03.PointList{ .x = { 125, 126, 127 }, .y = { 12, 12, 12 }, .index = 0 }
+{34..37,13,[3]const u8: '269' (source: '269')} day03.PointList{ .x = { 34, 35, 36 }, .y = { 13, 13, 13 }, .index = 0 }
+{38..41,13,[3]const u8: '486' (source: '486')} day03.PointList{ .x = { 38, 39, 40 }, .y = { 13, 13, 13 }, .index = 0 }
+{62..65,13,[3]const u8: '954' (source: '954')} day03.PointList{ .x = { 62, 63, 64 }, .y = { 13, 13, 13 }, .index = 0 }
+{121..124,13,[3]const u8: '203' (source: '203')} day03.PointList{ .x = { 121, 122, 123 }, .y = { 13, 13, 13 }, .index = 0 }
+{130..133,13,[3]const u8: '693' (source: '693')} day03.PointList{ .x = { 130, 131, 132 }, .y = { 13, 13, 13 }, .index = 0 }
+{5..8,14,[3]const u8: '262' (source: '262')} day03.PointList{ .x = { 5, 6, 7 }, .y = { 14, 14, 14 }, .index = 0 }
+{18..21,14,[3]const u8: '920' (source: '920')} day03.PointList{ .x = { 18, 19, 20 }, .y = { 14, 14, 14 }, .index = 0 }
+{24..27,14,[3]const u8: '248' (source: '248')} day03.PointList{ .x = { 24, 25, 26 }, .y = { 14, 14, 14 }, .index = 0 }
+{28..31,14,[3]const u8: '454' (source: '454')} day03.PointList{ .x = { 28, 29, 30 }, .y = { 14, 14, 14 }, .index = 0 }
+{49..52,14,[3]const u8: '289' (source: '289')} day03.PointList{ .x = { 49, 50, 51 }, .y = { 14, 14, 14 }, .index = 0 }
+{55..58,14,[3]const u8: '822' (source: '822')} day03.PointList{ .x = { 55, 56, 57 }, .y = { 14, 14, 14 }, .index = 0 }
+{67..70,14,[3]const u8: '530' (source: '530')} day03.PointList{ .x = { 67, 68, 69 }, .y = { 14, 14, 14 }, .index = 0 }
+{73..76,14,[3]const u8: '569' (source: '569')} day03.PointList{ .x = { 73, 74, 75 }, .y = { 14, 14, 14 }, .index = 0 }
+{106..109,14,[3]const u8: '256' (source: '256')} day03.PointList{ .x = { 106, 107, 108 }, .y = { 14, 14, 14 }, .index = 0 }
+{116..119,14,[3]const u8: '929' (source: '929')} day03.PointList{ .x = { 116, 117, 118 }, .y = { 14, 14, 14 }, .index = 0 }
+{85..87,15,[2]const u8: '57' (source: '57')} day03.PointList{ .x = { 85, 86 }, .y = { 15, 15 }, .index = 0 }
+{120..123,15,[3]const u8: '462' (source: '462')} day03.PointList{ .x = { 120, 121, 122 }, .y = { 15, 15, 15 }, .index = 0 }
+{126..129,15,[3]const u8: '198' (source: '198')} day03.PointList{ .x = { 126, 127, 128 }, .y = { 15, 15, 15 }, .index = 0 }
+{130..133,15,[3]const u8: '757' (source: '757')} day03.PointList{ .x = { 130, 131, 132 }, .y = { 15, 15, 15 }, .index = 0 }
+{15..17,16,[2]const u8: '65' (source: '65')} day03.PointList{ .x = { 15, 16 }, .y = { 16, 16 }, .index = 0 }
+{49..52,16,[3]const u8: '727' (source: '727')} day03.PointList{ .x = { 49, 50, 51 }, .y = { 16, 16, 16 }, .index = 0 }
+{60..62,16,[2]const u8: '62' (source: '62')} day03.PointList{ .x = { 60, 61 }, .y = { 16, 16 }, .index = 0 }
+{69..70,16,[1]const u8: '4' (source: '4')} day03.PointList{ .x = { 69 }, .y = { 16 }, .index = 0 }
+{75..78,16,[3]const u8: '796' (source: '796')} day03.PointList{ .x = { 75, 76, 77 }, .y = { 16, 16, 16 }, .index = 0 }
+{80..83,16,[3]const u8: '280' (source: '280')} day03.PointList{ .x = { 80, 81, 82 }, .y = { 16, 16, 16 }, .index = 0 }
+{89..92,16,[3]const u8: '444' (source: '444')} day03.PointList{ .x = { 89, 90, 91 }, .y = { 16, 16, 16 }, .index = 0 }
+{93..96,16,[3]const u8: '807' (source: '807')} day03.PointList{ .x = { 93, 94, 95 }, .y = { 16, 16, 16 }, .index = 0 }
+{116..118,16,[2]const u8: '20' (source: '20')} day03.PointList{ .x = { 116, 117 }, .y = { 16, 16 }, .index = 0 }
+{134..137,16,[3]const u8: '512' (source: '512')} day03.PointList{ .x = { 134, 135, 136 }, .y = { 16, 16, 16 }, .index = 0 }
+{9..12,17,[3]const u8: '877' (source: '877')} day03.PointList{ .x = { 9, 10, 11 }, .y = { 17, 17, 17 }, .index = 0 }
+{20..23,17,[3]const u8: '687' (source: '687')} day03.PointList{ .x = { 20, 21, 22 }, .y = { 17, 17, 17 }, .index = 0 }
+{25..28,17,[3]const u8: '187' (source: '187')} day03.PointList{ .x = { 25, 26, 27 }, .y = { 17, 17, 17 }, .index = 0 }
+{29..32,17,[3]const u8: '522' (source: '522')} day03.PointList{ .x = { 29, 30, 31 }, .y = { 17, 17, 17 }, .index = 0 }
+{39..42,17,[3]const u8: '853' (source: '853')} day03.PointList{ .x = { 39, 40, 41 }, .y = { 17, 17, 17 }, .index = 0 }
+{85..88,17,[3]const u8: '513' (source: '513')} day03.PointList{ .x = { 85, 86, 87 }, .y = { 17, 17, 17 }, .index = 0 }
+{101..104,17,[3]const u8: '849' (source: '849')} day03.PointList{ .x = { 101, 102, 103 }, .y = { 17, 17, 17 }, .index = 0 }
+{13..16,18,[3]const u8: '635' (source: '635')} day03.PointList{ .x = { 13, 14, 15 }, .y = { 18, 18, 18 }, .index = 0 }
+{62..65,18,[3]const u8: '380' (source: '380')} day03.PointList{ .x = { 62, 63, 64 }, .y = { 18, 18, 18 }, .index = 0 }
+{76..78,18,[2]const u8: '77' (source: '77')} day03.PointList{ .x = { 76, 77 }, .y = { 18, 18 }, .index = 0 }
+{117..120,18,[3]const u8: '484' (source: '484')} day03.PointList{ .x = { 117, 118, 119 }, .y = { 18, 18, 18 }, .index = 0 }
+{125..127,18,[2]const u8: '65' (source: '65')} day03.PointList{ .x = { 125, 126 }, .y = { 18, 18 }, .index = 0 }
+{128..131,18,[3]const u8: '886' (source: '886')} day03.PointList{ .x = { 128, 129, 130 }, .y = { 18, 18, 18 }, .index = 0 }
+{5..8,19,[3]const u8: '153' (source: '153')} day03.PointList{ .x = { 5, 6, 7 }, .y = { 19, 19, 19 }, .index = 0 }
+{25..28,19,[3]const u8: '320' (source: '320')} day03.PointList{ .x = { 25, 26, 27 }, .y = { 19, 19, 19 }, .index = 0 }
+{36..38,19,[2]const u8: '96' (source: '96')} day03.PointList{ .x = { 36, 37 }, .y = { 19, 19 }, .index = 0 }
+{40..43,19,[3]const u8: '619' (source: '619')} day03.PointList{ .x = { 40, 41, 42 }, .y = { 19, 19, 19 }, .index = 0 }
+{47..50,19,[3]const u8: '510' (source: '510')} day03.PointList{ .x = { 47, 48, 49 }, .y = { 19, 19, 19 }, .index = 0 }
+{56..59,19,[3]const u8: '221' (source: '221')} day03.PointList{ .x = { 56, 57, 58 }, .y = { 19, 19, 19 }, .index = 0 }
+{72..75,19,[3]const u8: '139' (source: '139')} day03.PointList{ .x = { 72, 73, 74 }, .y = { 19, 19, 19 }, .index = 0 }
+{86..89,19,[3]const u8: '957' (source: '957')} day03.PointList{ .x = { 86, 87, 88 }, .y = { 19, 19, 19 }, .index = 0 }
+{91..94,19,[3]const u8: '977' (source: '977')} day03.PointList{ .x = { 91, 92, 93 }, .y = { 19, 19, 19 }, .index = 0 }
+{100..102,19,[2]const u8: '20' (source: '20')} day03.PointList{ .x = { 100, 101 }, .y = { 19, 19 }, .index = 0 }
+{107..110,19,[3]const u8: '232' (source: '232')} day03.PointList{ .x = { 107, 108, 109 }, .y = { 19, 19, 19 }, .index = 0 }
+{111..113,19,[2]const u8: '20' (source: '20')} day03.PointList{ .x = { 111, 112 }, .y = { 19, 19 }, .index = 0 }
+{15..18,20,[3]const u8: '610' (source: '610')} day03.PointList{ .x = { 15, 16, 17 }, .y = { 20, 20, 20 }, .index = 0 }
+{20..23,20,[3]const u8: '479' (source: '479')} day03.PointList{ .x = { 20, 21, 22 }, .y = { 20, 20, 20 }, .index = 0 }
+{64..67,20,[3]const u8: '839' (source: '839')} day03.PointList{ .x = { 64, 65, 66 }, .y = { 20, 20, 20 }, .index = 0 }
+{122..125,20,[3]const u8: '144' (source: '144')} day03.PointList{ .x = { 122, 123, 124 }, .y = { 20, 20, 20 }, .index = 0 }
+{2..5,21,[3]const u8: '510' (source: '510')} day03.PointList{ .x = { 2, 3, 4 }, .y = { 21, 21, 21 }, .index = 0 }
+{24..27,21,[3]const u8: '927' (source: '927')} day03.PointList{ .x = { 24, 25, 26 }, .y = { 21, 21, 21 }, .index = 0 }
+{32..35,21,[3]const u8: '384' (source: '384')} day03.PointList{ .x = { 32, 33, 34 }, .y = { 21, 21, 21 }, .index = 0 }
+{43..46,21,[3]const u8: '714' (source: '714')} day03.PointList{ .x = { 43, 44, 45 }, .y = { 21, 21, 21 }, .index = 0 }
+{49..52,21,[3]const u8: '286' (source: '286')} day03.PointList{ .x = { 49, 50, 51 }, .y = { 21, 21, 21 }, .index = 0 }
+{72..75,21,[3]const u8: '799' (source: '799')} day03.PointList{ .x = { 72, 73, 74 }, .y = { 21, 21, 21 }, .index = 0 }
+{80..83,21,[3]const u8: '733' (source: '733')} day03.PointList{ .x = { 80, 81, 82 }, .y = { 21, 21, 21 }, .index = 0 }
+{92..95,21,[3]const u8: '832' (source: '832')} day03.PointList{ .x = { 92, 93, 94 }, .y = { 21, 21, 21 }, .index = 0 }
+{101..104,21,[3]const u8: '815' (source: '815')} day03.PointList{ .x = { 101, 102, 103 }, .y = { 21, 21, 21 }, .index = 0 }
+{105..108,21,[3]const u8: '187' (source: '187')} day03.PointList{ .x = { 105, 106, 107 }, .y = { 21, 21, 21 }, .index = 0 }
+{118..121,21,[3]const u8: '470' (source: '470')} day03.PointList{ .x = { 118, 119, 120 }, .y = { 21, 21, 21 }, .index = 0 }
+{8..11,22,[3]const u8: '892' (source: '892')} day03.PointList{ .x = { 8, 9, 10 }, .y = { 22, 22, 22 }, .index = 0 }
+{61..64,22,[3]const u8: '645' (source: '645')} day03.PointList{ .x = { 61, 62, 63 }, .y = { 22, 22, 22 }, .index = 0 }
+{65..68,22,[3]const u8: '427' (source: '427')} day03.PointList{ .x = { 65, 66, 67 }, .y = { 22, 22, 22 }, .index = 0 }
+{88..91,22,[3]const u8: '562' (source: '562')} day03.PointList{ .x = { 88, 89, 90 }, .y = { 22, 22, 22 }, .index = 0 }
+{110..113,22,[3]const u8: '133' (source: '133')} day03.PointList{ .x = { 110, 111, 112 }, .y = { 22, 22, 22 }, .index = 0 }
+{114..117,22,[3]const u8: '442' (source: '442')} day03.PointList{ .x = { 114, 115, 116 }, .y = { 22, 22, 22 }, .index = 0 }
+{20..23,23,[3]const u8: '803' (source: '803')} day03.PointList{ .x = { 20, 21, 22 }, .y = { 23, 23, 23 }, .index = 0 }
+{35..38,23,[3]const u8: '577' (source: '577')} day03.PointList{ .x = { 35, 36, 37 }, .y = { 23, 23, 23 }, .index = 0 }
+{51..54,23,[3]const u8: '447' (source: '447')} day03.PointList{ .x = { 51, 52, 53 }, .y = { 23, 23, 23 }, .index = 0 }
+{56..59,23,[3]const u8: '185' (source: '185')} day03.PointList{ .x = { 56, 57, 58 }, .y = { 23, 23, 23 }, .index = 0 }
+{93..96,23,[3]const u8: '132' (source: '132')} day03.PointList{ .x = { 93, 94, 95 }, .y = { 23, 23, 23 }, .index = 0 }
+{127..129,23,[2]const u8: '83' (source: '83')} day03.PointList{ .x = { 127, 128 }, .y = { 23, 23 }, .index = 0 }
+{29..32,24,[3]const u8: '435' (source: '435')} day03.PointList{ .x = { 29, 30, 31 }, .y = { 24, 24, 24 }, .index = 0 }
+{39..42,24,[3]const u8: '930' (source: '930')} day03.PointList{ .x = { 39, 40, 41 }, .y = { 24, 24, 24 }, .index = 0 }
+{45..48,24,[3]const u8: '143' (source: '143')} day03.PointList{ .x = { 45, 46, 47 }, .y = { 24, 24, 24 }, .index = 0 }
+{61..64,24,[3]const u8: '475' (source: '475')} day03.PointList{ .x = { 61, 62, 63 }, .y = { 24, 24, 24 }, .index = 0 }
+{122..125,24,[3]const u8: '675' (source: '675')} day03.PointList{ .x = { 122, 123, 124 }, .y = { 24, 24, 24 }, .index = 0 }
+{135..138,24,[3]const u8: '709' (source: '709')} day03.PointList{ .x = { 135, 136, 137 }, .y = { 24, 24, 24 }, .index = 0 }
+{0..3,25,[3]const u8: '777' (source: '777')} day03.PointList{ .x = { 0, 1, 2 }, .y = { 25, 25, 25 }, .index = 0 }
+{23..26,25,[3]const u8: '841' (source: '841')} day03.PointList{ .x = { 23, 24, 25 }, .y = { 25, 25, 25 }, .index = 0 }
+{82..85,25,[3]const u8: '859' (source: '859')} day03.PointList{ .x = { 82, 83, 84 }, .y = { 25, 25, 25 }, .index = 0 }
+{112..115,25,[3]const u8: '955' (source: '955')} day03.PointList{ .x = { 112, 113, 114 }, .y = { 25, 25, 25 }, .index = 0 }
+{117..120,25,[3]const u8: '903' (source: '903')} day03.PointList{ .x = { 117, 118, 119 }, .y = { 25, 25, 25 }, .index = 0 }
+{29..32,26,[3]const u8: '803' (source: '803')} day03.PointList{ .x = { 29, 30, 31 }, .y = { 26, 26, 26 }, .index = 0 }
+{33..36,26,[3]const u8: '829' (source: '829')} day03.PointList{ .x = { 33, 34, 35 }, .y = { 26, 26, 26 }, .index = 0 }
+{41..44,26,[3]const u8: '877' (source: '877')} day03.PointList{ .x = { 41, 42, 43 }, .y = { 26, 26, 26 }, .index = 0 }
+{62..65,26,[3]const u8: '716' (source: '716')} day03.PointList{ .x = { 62, 63, 64 }, .y = { 26, 26, 26 }, .index = 0 }
+{69..72,26,[3]const u8: '873' (source: '873')} day03.PointList{ .x = { 69, 70, 71 }, .y = { 26, 26, 26 }, .index = 0 }
+{76..79,26,[3]const u8: '387' (source: '387')} day03.PointList{ .x = { 76, 77, 78 }, .y = { 26, 26, 26 }, .index = 0 }
+{88..91,26,[3]const u8: '857' (source: '857')} day03.PointList{ .x = { 88, 89, 90 }, .y = { 26, 26, 26 }, .index = 0 }
+{93..96,26,[3]const u8: '837' (source: '837')} day03.PointList{ .x = { 93, 94, 95 }, .y = { 26, 26, 26 }, .index = 0 }
+{121..124,26,[3]const u8: '390' (source: '390')} day03.PointList{ .x = { 121, 122, 123 }, .y = { 26, 26, 26 }, .index = 0 }
+{49..52,27,[3]const u8: '994' (source: '994')} day03.PointList{ .x = { 49, 50, 51 }, .y = { 27, 27, 27 }, .index = 0 }
+{101..104,27,[3]const u8: '749' (source: '749')} day03.PointList{ .x = { 101, 102, 103 }, .y = { 27, 27, 27 }, .index = 0 }
+{113..116,27,[3]const u8: '718' (source: '718')} day03.PointList{ .x = { 113, 114, 115 }, .y = { 27, 27, 27 }, .index = 0 }
+{117..120,27,[3]const u8: '174' (source: '174')} day03.PointList{ .x = { 117, 118, 119 }, .y = { 27, 27, 27 }, .index = 0 }
+{125..128,27,[3]const u8: '138' (source: '138')} day03.PointList{ .x = { 125, 126, 127 }, .y = { 27, 27, 27 }, .index = 0 }
+{130..133,27,[3]const u8: '697' (source: '697')} day03.PointList{ .x = { 130, 131, 132 }, .y = { 27, 27, 27 }, .index = 0 }
+{136..139,27,[3]const u8: '463' (source: '463')} day03.PointList{ .x = { 136, 137, 138 }, .y = { 27, 27, 27 }, .index = 0 }
+{21..24,28,[3]const u8: '697' (source: '697')} day03.PointList{ .x = { 21, 22, 23 }, .y = { 28, 28, 28 }, .index = 0 }
+{32..35,28,[3]const u8: '435' (source: '435')} day03.PointList{ .x = { 32, 33, 34 }, .y = { 28, 28, 28 }, .index = 0 }
+{74..77,28,[3]const u8: '414' (source: '414')} day03.PointList{ .x = { 74, 75, 76 }, .y = { 28, 28, 28 }, .index = 0 }
+{79..82,28,[3]const u8: '981' (source: '981')} day03.PointList{ .x = { 79, 80, 81 }, .y = { 28, 28, 28 }, .index = 0 }
+{87..90,28,[3]const u8: '541' (source: '541')} day03.PointList{ .x = { 87, 88, 89 }, .y = { 28, 28, 28 }, .index = 0 }
+{38..41,29,[3]const u8: '544' (source: '544')} day03.PointList{ .x = { 38, 39, 40 }, .y = { 29, 29, 29 }, .index = 0 }
+{48..51,29,[3]const u8: '524' (source: '524')} day03.PointList{ .x = { 48, 49, 50 }, .y = { 29, 29, 29 }, .index = 0 }
+{64..67,29,[3]const u8: '446' (source: '446')} day03.PointList{ .x = { 64, 65, 66 }, .y = { 29, 29, 29 }, .index = 0 }
+{92..95,29,[3]const u8: '397' (source: '397')} day03.PointList{ .x = { 92, 93, 94 }, .y = { 29, 29, 29 }, .index = 0 }
+{97..100,29,[3]const u8: '486' (source: '486')} day03.PointList{ .x = { 97, 98, 99 }, .y = { 29, 29, 29 }, .index = 0 }
+{104..107,29,[3]const u8: '603' (source: '603')} day03.PointList{ .x = { 104, 105, 106 }, .y = { 29, 29, 29 }, .index = 0 }
+{108..111,29,[3]const u8: '463' (source: '463')} day03.PointList{ .x = { 108, 109, 110 }, .y = { 29, 29, 29 }, .index = 0 }
+{117..120,29,[3]const u8: '497' (source: '497')} day03.PointList{ .x = { 117, 118, 119 }, .y = { 29, 29, 29 }, .index = 0 }
+{9..12,30,[3]const u8: '161' (source: '161')} day03.PointList{ .x = { 9, 10, 11 }, .y = { 30, 30, 30 }, .index = 0 }
+{20..23,30,[3]const u8: '412' (source: '412')} day03.PointList{ .x = { 20, 21, 22 }, .y = { 30, 30, 30 }, .index = 0 }
+{27..30,30,[3]const u8: '273' (source: '273')} day03.PointList{ .x = { 27, 28, 29 }, .y = { 30, 30, 30 }, .index = 0 }
+{32..35,30,[3]const u8: '218' (source: '218')} day03.PointList{ .x = { 32, 33, 34 }, .y = { 30, 30, 30 }, .index = 0 }
+{52..54,30,[2]const u8: '80' (source: '80')} day03.PointList{ .x = { 52, 53 }, .y = { 30, 30 }, .index = 0 }
+{82..85,30,[3]const u8: '708' (source: '708')} day03.PointList{ .x = { 82, 83, 84 }, .y = { 30, 30, 30 }, .index = 0 }
+{113..116,30,[3]const u8: '899' (source: '899')} day03.PointList{ .x = { 113, 114, 115 }, .y = { 30, 30, 30 }, .index = 0 }
+{41..44,31,[3]const u8: '666' (source: '666')} day03.PointList{ .x = { 41, 42, 43 }, .y = { 31, 31, 31 }, .index = 0 }
+{46..49,31,[3]const u8: '401' (source: '401')} day03.PointList{ .x = { 46, 47, 48 }, .y = { 31, 31, 31 }, .index = 0 }
+{59..62,31,[3]const u8: '214' (source: '214')} day03.PointList{ .x = { 59, 60, 61 }, .y = { 31, 31, 31 }, .index = 0 }
+{64..67,31,[3]const u8: '472' (source: '472')} day03.PointList{ .x = { 64, 65, 66 }, .y = { 31, 31, 31 }, .index = 0 }
+{69..72,31,[3]const u8: '499' (source: '499')} day03.PointList{ .x = { 69, 70, 71 }, .y = { 31, 31, 31 }, .index = 0 }
+{88..91,31,[3]const u8: '955' (source: '955')} day03.PointList{ .x = { 88, 89, 90 }, .y = { 31, 31, 31 }, .index = 0 }
+{117..120,31,[3]const u8: '867' (source: '867')} day03.PointList{ .x = { 117, 118, 119 }, .y = { 31, 31, 31 }, .index = 0 }
+{124..127,31,[3]const u8: '607' (source: '607')} day03.PointList{ .x = { 124, 125, 126 }, .y = { 31, 31, 31 }, .index = 0 }
+{128..131,31,[3]const u8: '491' (source: '491')} day03.PointList{ .x = { 128, 129, 130 }, .y = { 31, 31, 31 }, .index = 0 }
+{5..8,32,[3]const u8: '851' (source: '851')} day03.PointList{ .x = { 5, 6, 7 }, .y = { 32, 32, 32 }, .index = 0 }
+{10..13,32,[3]const u8: '653' (source: '653')} day03.PointList{ .x = { 10, 11, 12 }, .y = { 32, 32, 32 }, .index = 0 }
+{19..21,32,[2]const u8: '44' (source: '44')} day03.PointList{ .x = { 19, 20 }, .y = { 32, 32 }, .index = 0 }
+{36..39,32,[3]const u8: '152' (source: '152')} day03.PointList{ .x = { 36, 37, 38 }, .y = { 32, 32, 32 }, .index = 0 }
+{81..84,32,[3]const u8: '294' (source: '294')} day03.PointList{ .x = { 81, 82, 83 }, .y = { 32, 32, 32 }, .index = 0 }
+{93..96,32,[3]const u8: '313' (source: '313')} day03.PointList{ .x = { 93, 94, 95 }, .y = { 32, 32, 32 }, .index = 0 }
+{99..102,32,[3]const u8: '237' (source: '237')} day03.PointList{ .x = { 99, 100, 101 }, .y = { 32, 32, 32 }, .index = 0 }
+{106..109,32,[3]const u8: '580' (source: '580')} day03.PointList{ .x = { 106, 107, 108 }, .y = { 32, 32, 32 }, .index = 0 }
+{28..31,33,[3]const u8: '989' (source: '989')} day03.PointList{ .x = { 28, 29, 30 }, .y = { 33, 33, 33 }, .index = 0 }
+{41..44,33,[3]const u8: '954' (source: '954')} day03.PointList{ .x = { 41, 42, 43 }, .y = { 33, 33, 33 }, .index = 0 }
+{49..51,33,[2]const u8: '69' (source: '69')} day03.PointList{ .x = { 49, 50 }, .y = { 33, 33 }, .index = 0 }
+{56..59,33,[3]const u8: '488' (source: '488')} day03.PointList{ .x = { 56, 57, 58 }, .y = { 33, 33, 33 }, .index = 0 }
+{69..71,33,[2]const u8: '90' (source: '90')} day03.PointList{ .x = { 69, 70 }, .y = { 33, 33 }, .index = 0 }
+{86..89,33,[3]const u8: '697' (source: '697')} day03.PointList{ .x = { 86, 87, 88 }, .y = { 33, 33, 33 }, .index = 0 }
+{110..113,33,[3]const u8: '686' (source: '686')} day03.PointList{ .x = { 110, 111, 112 }, .y = { 33, 33, 33 }, .index = 0 }
+{5..8,34,[3]const u8: '104' (source: '104')} day03.PointList{ .x = { 5, 6, 7 }, .y = { 34, 34, 34 }, .index = 0 }
+{36..39,34,[3]const u8: '773' (source: '773')} day03.PointList{ .x = { 36, 37, 38 }, .y = { 34, 34, 34 }, .index = 0 }
+{60..63,34,[3]const u8: '959' (source: '959')} day03.PointList{ .x = { 60, 61, 62 }, .y = { 34, 34, 34 }, .index = 0 }
+{76..79,34,[3]const u8: '272' (source: '272')} day03.PointList{ .x = { 76, 77, 78 }, .y = { 34, 34, 34 }, .index = 0 }
+{90..93,34,[3]const u8: '433' (source: '433')} day03.PointList{ .x = { 90, 91, 92 }, .y = { 34, 34, 34 }, .index = 0 }
+{101..104,34,[3]const u8: '889' (source: '889')} day03.PointList{ .x = { 101, 102, 103 }, .y = { 34, 34, 34 }, .index = 0 }
+{105..108,34,[3]const u8: '821' (source: '821')} day03.PointList{ .x = { 105, 106, 107 }, .y = { 34, 34, 34 }, .index = 0 }
+{118..121,34,[3]const u8: '469' (source: '469')} day03.PointList{ .x = { 118, 119, 120 }, .y = { 34, 34, 34 }, .index = 0 }
+{10..13,35,[3]const u8: '865' (source: '865')} day03.PointList{ .x = { 10, 11, 12 }, .y = { 35, 35, 35 }, .index = 0 }
+{14..17,35,[3]const u8: '318' (source: '318')} day03.PointList{ .x = { 14, 15, 16 }, .y = { 35, 35, 35 }, .index = 0 }
+{46..49,35,[3]const u8: '267' (source: '267')} day03.PointList{ .x = { 46, 47, 48 }, .y = { 35, 35, 35 }, .index = 0 }
+{64..67,35,[3]const u8: '969' (source: '969')} day03.PointList{ .x = { 64, 65, 66 }, .y = { 35, 35, 35 }, .index = 0 }
+{96..99,35,[3]const u8: '758' (source: '758')} day03.PointList{ .x = { 96, 97, 98 }, .y = { 35, 35, 35 }, .index = 0 }
+{123..126,35,[3]const u8: '913' (source: '913')} day03.PointList{ .x = { 123, 124, 125 }, .y = { 35, 35, 35 }, .index = 0 }
+{134..137,35,[3]const u8: '646' (source: '646')} day03.PointList{ .x = { 134, 135, 136 }, .y = { 35, 35, 35 }, .index = 0 }
+{6..9,36,[3]const u8: '132' (source: '132')} day03.PointList{ .x = { 6, 7, 8 }, .y = { 36, 36, 36 }, .index = 0 }
+{59..62,36,[3]const u8: '126' (source: '126')} day03.PointList{ .x = { 59, 60, 61 }, .y = { 36, 36, 36 }, .index = 0 }
+{68..71,36,[3]const u8: '468' (source: '468')} day03.PointList{ .x = { 68, 69, 70 }, .y = { 36, 36, 36 }, .index = 0 }
+{76..79,36,[3]const u8: '651' (source: '651')} day03.PointList{ .x = { 76, 77, 78 }, .y = { 36, 36, 36 }, .index = 0 }
+{91..94,36,[3]const u8: '424' (source: '424')} day03.PointList{ .x = { 91, 92, 93 }, .y = { 36, 36, 36 }, .index = 0 }
+{102..105,36,[3]const u8: '270' (source: '270')} day03.PointList{ .x = { 102, 103, 104 }, .y = { 36, 36, 36 }, .index = 0 }
+{106..109,36,[3]const u8: '765' (source: '765')} day03.PointList{ .x = { 106, 107, 108 }, .y = { 36, 36, 36 }, .index = 0 }
+{114..116,36,[2]const u8: '53' (source: '53')} day03.PointList{ .x = { 114, 115 }, .y = { 36, 36 }, .index = 0 }
+{119..122,36,[3]const u8: '965' (source: '965')} day03.PointList{ .x = { 119, 120, 121 }, .y = { 36, 36, 36 }, .index = 0 }
+{127..129,36,[2]const u8: '19' (source: '19')} day03.PointList{ .x = { 127, 128 }, .y = { 36, 36 }, .index = 0 }
+{14..17,37,[3]const u8: '725' (source: '725')} day03.PointList{ .x = { 14, 15, 16 }, .y = { 37, 37, 37 }, .index = 0 }
+{22..25,37,[3]const u8: '449' (source: '449')} day03.PointList{ .x = { 22, 23, 24 }, .y = { 37, 37, 37 }, .index = 0 }
+{32..35,37,[3]const u8: '337' (source: '337')} day03.PointList{ .x = { 32, 33, 34 }, .y = { 37, 37, 37 }, .index = 0 }
+{37..40,37,[3]const u8: '187' (source: '187')} day03.PointList{ .x = { 37, 38, 39 }, .y = { 37, 37, 37 }, .index = 0 }
+{48..51,37,[3]const u8: '862' (source: '862')} day03.PointList{ .x = { 48, 49, 50 }, .y = { 37, 37, 37 }, .index = 0 }
+{86..88,37,[2]const u8: '28' (source: '28')} day03.PointList{ .x = { 86, 87 }, .y = { 37, 37 }, .index = 0 }
+{123..126,37,[3]const u8: '779' (source: '779')} day03.PointList{ .x = { 123, 124, 125 }, .y = { 37, 37, 37 }, .index = 0 }
+{5..8,38,[3]const u8: '744' (source: '744')} day03.PointList{ .x = { 5, 6, 7 }, .y = { 38, 38, 38 }, .index = 0 }
+{11..13,38,[2]const u8: '36' (source: '36')} day03.PointList{ .x = { 11, 12 }, .y = { 38, 38 }, .index = 0 }
+{18..21,38,[3]const u8: '203' (source: '203')} day03.PointList{ .x = { 18, 19, 20 }, .y = { 38, 38, 38 }, .index = 0 }
+{28..31,38,[3]const u8: '452' (source: '452')} day03.PointList{ .x = { 28, 29, 30 }, .y = { 38, 38, 38 }, .index = 0 }
+{41..44,38,[3]const u8: '846' (source: '846')} day03.PointList{ .x = { 41, 42, 43 }, .y = { 38, 38, 38 }, .index = 0 }
+{91..94,38,[3]const u8: '811' (source: '811')} day03.PointList{ .x = { 91, 92, 93 }, .y = { 38, 38, 38 }, .index = 0 }
+{96..99,38,[3]const u8: '501' (source: '501')} day03.PointList{ .x = { 96, 97, 98 }, .y = { 38, 38, 38 }, .index = 0 }
+{101..104,38,[3]const u8: '342' (source: '342')} day03.PointList{ .x = { 101, 102, 103 }, .y = { 38, 38, 38 }, .index = 0 }
+{107..110,38,[3]const u8: '891' (source: '891')} day03.PointList{ .x = { 107, 108, 109 }, .y = { 38, 38, 38 }, .index = 0 }
+{115..118,38,[3]const u8: '776' (source: '776')} day03.PointList{ .x = { 115, 116, 117 }, .y = { 38, 38, 38 }, .index = 0 }
+{137..140,38,[3]const u8: '395' (source: '395')} day03.PointList{ .x = { 137, 138, 139 }, .y = { 38, 38, 38 }, .index = 0 }
+{33..36,39,[3]const u8: '689' (source: '689')} day03.PointList{ .x = { 33, 34, 35 }, .y = { 39, 39, 39 }, .index = 0 }
+{51..54,39,[3]const u8: '619' (source: '619')} day03.PointList{ .x = { 51, 52, 53 }, .y = { 39, 39, 39 }, .index = 0 }
+{56..59,39,[3]const u8: '392' (source: '392')} day03.PointList{ .x = { 56, 57, 58 }, .y = { 39, 39, 39 }, .index = 0 }
+{125..128,39,[3]const u8: '408' (source: '408')} day03.PointList{ .x = { 125, 126, 127 }, .y = { 39, 39, 39 }, .index = 0 }
+{19..22,40,[3]const u8: '732' (source: '732')} day03.PointList{ .x = { 19, 20, 21 }, .y = { 40, 40, 40 }, .index = 0 }
+{74..77,40,[3]const u8: '568' (source: '568')} day03.PointList{ .x = { 74, 75, 76 }, .y = { 40, 40, 40 }, .index = 0 }
+{93..96,40,[3]const u8: '375' (source: '375')} day03.PointList{ .x = { 93, 94, 95 }, .y = { 40, 40, 40 }, .index = 0 }
+{98..101,40,[3]const u8: '561' (source: '561')} day03.PointList{ .x = { 98, 99, 100 }, .y = { 40, 40, 40 }, .index = 0 }
+{109..112,40,[3]const u8: '111' (source: '111')} day03.PointList{ .x = { 109, 110, 111 }, .y = { 40, 40, 40 }, .index = 0 }
+{119..122,40,[3]const u8: '565' (source: '565')} day03.PointList{ .x = { 119, 120, 121 }, .y = { 40, 40, 40 }, .index = 0 }
+{11..14,41,[3]const u8: '801' (source: '801')} day03.PointList{ .x = { 11, 12, 13 }, .y = { 41, 41, 41 }, .index = 0 }
+{26..29,41,[3]const u8: '221' (source: '221')} day03.PointList{ .x = { 26, 27, 28 }, .y = { 41, 41, 41 }, .index = 0 }
+{33..36,41,[3]const u8: '336' (source: '336')} day03.PointList{ .x = { 33, 34, 35 }, .y = { 41, 41, 41 }, .index = 0 }
+{39..42,41,[3]const u8: '493' (source: '493')} day03.PointList{ .x = { 39, 40, 41 }, .y = { 41, 41, 41 }, .index = 0 }
+{46..49,41,[3]const u8: '263' (source: '263')} day03.PointList{ .x = { 46, 47, 48 }, .y = { 41, 41, 41 }, .index = 0 }
+{59..62,41,[3]const u8: '981' (source: '981')} day03.PointList{ .x = { 59, 60, 61 }, .y = { 41, 41, 41 }, .index = 0 }
+{113..116,41,[3]const u8: '809' (source: '809')} day03.PointList{ .x = { 113, 114, 115 }, .y = { 41, 41, 41 }, .index = 0 }
+{137..140,41,[3]const u8: '686' (source: '686')} day03.PointList{ .x = { 137, 138, 139 }, .y = { 41, 41, 41 }, .index = 0 }
+{54..57,42,[3]const u8: '510' (source: '510')} day03.PointList{ .x = { 54, 55, 56 }, .y = { 42, 42, 42 }, .index = 0 }
+{80..83,42,[3]const u8: '387' (source: '387')} day03.PointList{ .x = { 80, 81, 82 }, .y = { 42, 42, 42 }, .index = 0 }
+{132..135,42,[3]const u8: '132' (source: '132')} day03.PointList{ .x = { 132, 133, 134 }, .y = { 42, 42, 42 }, .index = 0 }
+{7..10,43,[3]const u8: '674' (source: '674')} day03.PointList{ .x = { 7, 8, 9 }, .y = { 43, 43, 43 }, .index = 0 }
+{19..22,43,[3]const u8: '364' (source: '364')} day03.PointList{ .x = { 19, 20, 21 }, .y = { 43, 43, 43 }, .index = 0 }
+{33..36,43,[3]const u8: '734' (source: '734')} day03.PointList{ .x = { 33, 34, 35 }, .y = { 43, 43, 43 }, .index = 0 }
+{37..40,43,[3]const u8: '141' (source: '141')} day03.PointList{ .x = { 37, 38, 39 }, .y = { 43, 43, 43 }, .index = 0 }
+{75..78,43,[3]const u8: '572' (source: '572')} day03.PointList{ .x = { 75, 76, 77 }, .y = { 43, 43, 43 }, .index = 0 }
+{86..89,43,[3]const u8: '878' (source: '878')} day03.PointList{ .x = { 86, 87, 88 }, .y = { 43, 43, 43 }, .index = 0 }
+{92..95,43,[3]const u8: '929' (source: '929')} day03.PointList{ .x = { 92, 93, 94 }, .y = { 43, 43, 43 }, .index = 0 }
+{96..99,43,[3]const u8: '141' (source: '141')} day03.PointList{ .x = { 96, 97, 98 }, .y = { 43, 43, 43 }, .index = 0 }
+{108..111,43,[3]const u8: '526' (source: '526')} day03.PointList{ .x = { 108, 109, 110 }, .y = { 43, 43, 43 }, .index = 0 }
+{114..117,43,[3]const u8: '919' (source: '919')} day03.PointList{ .x = { 114, 115, 116 }, .y = { 43, 43, 43 }, .index = 0 }
+{118..121,43,[3]const u8: '646' (source: '646')} day03.PointList{ .x = { 118, 119, 120 }, .y = { 43, 43, 43 }, .index = 0 }
+{14..17,44,[3]const u8: '980' (source: '980')} day03.PointList{ .x = { 14, 15, 16 }, .y = { 44, 44, 44 }, .index = 0 }
+{64..67,44,[3]const u8: '500' (source: '500')} day03.PointList{ .x = { 64, 65, 66 }, .y = { 44, 44, 44 }, .index = 0 }
+{70..73,44,[3]const u8: '229' (source: '229')} day03.PointList{ .x = { 70, 71, 72 }, .y = { 44, 44, 44 }, .index = 0 }
+{79..82,44,[3]const u8: '876' (source: '876')} day03.PointList{ .x = { 79, 80, 81 }, .y = { 44, 44, 44 }, .index = 0 }
+{101..104,44,[3]const u8: '220' (source: '220')} day03.PointList{ .x = { 101, 102, 103 }, .y = { 44, 44, 44 }, .index = 0 }
+{124..127,44,[3]const u8: '809' (source: '809')} day03.PointList{ .x = { 124, 125, 126 }, .y = { 44, 44, 44 }, .index = 0 }
+{133..136,44,[3]const u8: '522' (source: '522')} day03.PointList{ .x = { 133, 134, 135 }, .y = { 44, 44, 44 }, .index = 0 }
+{0..3,45,[3]const u8: '394' (source: '394')} day03.PointList{ .x = { 0, 1, 2 }, .y = { 45, 45, 45 }, .index = 0 }
+{7..10,45,[3]const u8: '374' (source: '374')} day03.PointList{ .x = { 7, 8, 9 }, .y = { 45, 45, 45 }, .index = 0 }
+{32..35,45,[3]const u8: '194' (source: '194')} day03.PointList{ .x = { 32, 33, 34 }, .y = { 45, 45, 45 }, .index = 0 }
+{41..44,45,[3]const u8: '660' (source: '660')} day03.PointList{ .x = { 41, 42, 43 }, .y = { 45, 45, 45 }, .index = 0 }
+{49..52,45,[3]const u8: '172' (source: '172')} day03.PointList{ .x = { 49, 50, 51 }, .y = { 45, 45, 45 }, .index = 0 }
+{84..87,45,[3]const u8: '774' (source: '774')} day03.PointList{ .x = { 84, 85, 86 }, .y = { 45, 45, 45 }, .index = 0 }
+{106..109,45,[3]const u8: '367' (source: '367')} day03.PointList{ .x = { 106, 107, 108 }, .y = { 45, 45, 45 }, .index = 0 }
+{115..118,45,[3]const u8: '452' (source: '452')} day03.PointList{ .x = { 115, 116, 117 }, .y = { 45, 45, 45 }, .index = 0 }
+{120..123,45,[3]const u8: '952' (source: '952')} day03.PointList{ .x = { 120, 121, 122 }, .y = { 45, 45, 45 }, .index = 0 }
+{57..60,46,[3]const u8: '220' (source: '220')} day03.PointList{ .x = { 57, 58, 59 }, .y = { 46, 46, 46 }, .index = 0 }
+{68..71,46,[3]const u8: '776' (source: '776')} day03.PointList{ .x = { 68, 69, 70 }, .y = { 46, 46, 46 }, .index = 0 }
+{72..75,46,[3]const u8: '542' (source: '542')} day03.PointList{ .x = { 72, 73, 74 }, .y = { 46, 46, 46 }, .index = 0 }
+{89..92,46,[3]const u8: '843' (source: '843')} day03.PointList{ .x = { 89, 90, 91 }, .y = { 46, 46, 46 }, .index = 0 }
+{94..97,46,[3]const u8: '857' (source: '857')} day03.PointList{ .x = { 94, 95, 96 }, .y = { 46, 46, 46 }, .index = 0 }
+{101..104,46,[3]const u8: '560' (source: '560')} day03.PointList{ .x = { 101, 102, 103 }, .y = { 46, 46, 46 }, .index = 0 }
+{8..11,47,[3]const u8: '728' (source: '728')} day03.PointList{ .x = { 8, 9, 10 }, .y = { 47, 47, 47 }, .index = 0 }
+{23..26,47,[3]const u8: '668' (source: '668')} day03.PointList{ .x = { 23, 24, 25 }, .y = { 47, 47, 47 }, .index = 0 }
+{35..38,47,[3]const u8: '651' (source: '651')} day03.PointList{ .x = { 35, 36, 37 }, .y = { 47, 47, 47 }, .index = 0 }
+{44..47,47,[3]const u8: '589' (source: '589')} day03.PointList{ .x = { 44, 45, 46 }, .y = { 47, 47, 47 }, .index = 0 }
+{48..51,47,[3]const u8: '857' (source: '857')} day03.PointList{ .x = { 48, 49, 50 }, .y = { 47, 47, 47 }, .index = 0 }
+{78..81,47,[3]const u8: '354' (source: '354')} day03.PointList{ .x = { 78, 79, 80 }, .y = { 47, 47, 47 }, .index = 0 }
+{85..88,47,[3]const u8: '509' (source: '509')} day03.PointList{ .x = { 85, 86, 87 }, .y = { 47, 47, 47 }, .index = 0 }
+{128..131,47,[3]const u8: '151' (source: '151')} day03.PointList{ .x = { 128, 129, 130 }, .y = { 47, 47, 47 }, .index = 0 }
+{13..16,48,[3]const u8: '262' (source: '262')} day03.PointList{ .x = { 13, 14, 15 }, .y = { 48, 48, 48 }, .index = 0 }
+{53..56,48,[3]const u8: '878' (source: '878')} day03.PointList{ .x = { 53, 54, 55 }, .y = { 48, 48, 48 }, .index = 0 }
+{61..64,48,[3]const u8: '563' (source: '563')} day03.PointList{ .x = { 61, 62, 63 }, .y = { 48, 48, 48 }, .index = 0 }
+{65..68,48,[3]const u8: '642' (source: '642')} day03.PointList{ .x = { 65, 66, 67 }, .y = { 48, 48, 48 }, .index = 0 }
+{105..108,48,[3]const u8: '586' (source: '586')} day03.PointList{ .x = { 105, 106, 107 }, .y = { 48, 48, 48 }, .index = 0 }
+{116..119,48,[3]const u8: '638' (source: '638')} day03.PointList{ .x = { 116, 117, 118 }, .y = { 48, 48, 48 }, .index = 0 }
+{121..124,48,[3]const u8: '933' (source: '933')} day03.PointList{ .x = { 121, 122, 123 }, .y = { 48, 48, 48 }, .index = 0 }
+{0..3,49,[3]const u8: '504' (source: '504')} day03.PointList{ .x = { 0, 1, 2 }, .y = { 49, 49, 49 }, .index = 0 }
+{4..7,49,[3]const u8: '454' (source: '454')} day03.PointList{ .x = { 4, 5, 6 }, .y = { 49, 49, 49 }, .index = 0 }
+{27..30,49,[3]const u8: '540' (source: '540')} day03.PointList{ .x = { 27, 28, 29 }, .y = { 49, 49, 49 }, .index = 0 }
+{40..43,49,[3]const u8: '524' (source: '524')} day03.PointList{ .x = { 40, 41, 42 }, .y = { 49, 49, 49 }, .index = 0 }
+{57..60,49,[3]const u8: '531' (source: '531')} day03.PointList{ .x = { 57, 58, 59 }, .y = { 49, 49, 49 }, .index = 0 }
+{71..74,49,[3]const u8: '942' (source: '942')} day03.PointList{ .x = { 71, 72, 73 }, .y = { 49, 49, 49 }, .index = 0 }
+{98..101,49,[3]const u8: '830' (source: '830')} day03.PointList{ .x = { 98, 99, 100 }, .y = { 49, 49, 49 }, .index = 0 }
+{110..113,49,[3]const u8: '302' (source: '302')} day03.PointList{ .x = { 110, 111, 112 }, .y = { 49, 49, 49 }, .index = 0 }
+{9..12,50,[3]const u8: '498' (source: '498')} day03.PointList{ .x = { 9, 10, 11 }, .y = { 50, 50, 50 }, .index = 0 }
+{14..17,50,[3]const u8: '357' (source: '357')} day03.PointList{ .x = { 14, 15, 16 }, .y = { 50, 50, 50 }, .index = 0 }
+{51..54,50,[3]const u8: '340' (source: '340')} day03.PointList{ .x = { 51, 52, 53 }, .y = { 50, 50, 50 }, .index = 0 }
+{63..66,50,[3]const u8: '925' (source: '925')} day03.PointList{ .x = { 63, 64, 65 }, .y = { 50, 50, 50 }, .index = 0 }
+{78..81,50,[3]const u8: '623' (source: '623')} day03.PointList{ .x = { 78, 79, 80 }, .y = { 50, 50, 50 }, .index = 0 }
+{82..85,50,[3]const u8: '707' (source: '707')} day03.PointList{ .x = { 82, 83, 84 }, .y = { 50, 50, 50 }, .index = 0 }
+{86..89,50,[3]const u8: '479' (source: '479')} day03.PointList{ .x = { 86, 87, 88 }, .y = { 50, 50, 50 }, .index = 0 }
+{131..134,50,[3]const u8: '401' (source: '401')} day03.PointList{ .x = { 131, 132, 133 }, .y = { 50, 50, 50 }, .index = 0 }
+{135..138,50,[3]const u8: '117' (source: '117')} day03.PointList{ .x = { 135, 136, 137 }, .y = { 50, 50, 50 }, .index = 0 }
+{0..2,51,[2]const u8: '34' (source: '34')} day03.PointList{ .x = { 0, 1 }, .y = { 51, 51 }, .index = 0 }
+{20..23,51,[3]const u8: '608' (source: '608')} day03.PointList{ .x = { 20, 21, 22 }, .y = { 51, 51, 51 }, .index = 0 }
+{28..31,51,[3]const u8: '156' (source: '156')} day03.PointList{ .x = { 28, 29, 30 }, .y = { 51, 51, 51 }, .index = 0 }
+{32..35,51,[3]const u8: '747' (source: '747')} day03.PointList{ .x = { 32, 33, 34 }, .y = { 51, 51, 51 }, .index = 0 }
+{73..76,51,[3]const u8: '748' (source: '748')} day03.PointList{ .x = { 73, 74, 75 }, .y = { 51, 51, 51 }, .index = 0 }
+{109..112,51,[3]const u8: '565' (source: '565')} day03.PointList{ .x = { 109, 110, 111 }, .y = { 51, 51, 51 }, .index = 0 }
+{117..119,51,[2]const u8: '93' (source: '93')} day03.PointList{ .x = { 117, 118 }, .y = { 51, 51 }, .index = 0 }
+{8..11,52,[3]const u8: '426' (source: '426')} day03.PointList{ .x = { 8, 9, 10 }, .y = { 52, 52, 52 }, .index = 0 }
+{44..46,52,[2]const u8: '60' (source: '60')} day03.PointList{ .x = { 44, 45 }, .y = { 52, 52 }, .index = 0 }
+{47..50,52,[3]const u8: '938' (source: '938')} day03.PointList{ .x = { 47, 48, 49 }, .y = { 52, 52, 52 }, .index = 0 }
+{77..80,52,[3]const u8: '615' (source: '615')} day03.PointList{ .x = { 77, 78, 79 }, .y = { 52, 52, 52 }, .index = 0 }
+{81..84,52,[3]const u8: '328' (source: '328')} day03.PointList{ .x = { 81, 82, 83 }, .y = { 52, 52, 52 }, .index = 0 }
+{89..92,52,[3]const u8: '818' (source: '818')} day03.PointList{ .x = { 89, 90, 91 }, .y = { 52, 52, 52 }, .index = 0 }
+{96..99,52,[3]const u8: '143' (source: '143')} day03.PointList{ .x = { 96, 97, 98 }, .y = { 52, 52, 52 }, .index = 0 }
+{100..103,52,[3]const u8: '118' (source: '118')} day03.PointList{ .x = { 100, 101, 102 }, .y = { 52, 52, 52 }, .index = 0 }
+{135..138,52,[3]const u8: '916' (source: '916')} day03.PointList{ .x = { 135, 136, 137 }, .y = { 52, 52, 52 }, .index = 0 }
+{15..18,53,[3]const u8: '547' (source: '547')} day03.PointList{ .x = { 15, 16, 17 }, .y = { 53, 53, 53 }, .index = 0 }
+{55..57,53,[2]const u8: '64' (source: '64')} day03.PointList{ .x = { 55, 56 }, .y = { 53, 53 }, .index = 0 }
+{73..76,53,[3]const u8: '405' (source: '405')} day03.PointList{ .x = { 73, 74, 75 }, .y = { 53, 53, 53 }, .index = 0 }
+{85..88,53,[3]const u8: '802' (source: '802')} day03.PointList{ .x = { 85, 86, 87 }, .y = { 53, 53, 53 }, .index = 0 }
+{104..107,53,[3]const u8: '188' (source: '188')} day03.PointList{ .x = { 104, 105, 106 }, .y = { 53, 53, 53 }, .index = 0 }
+{119..122,53,[3]const u8: '246' (source: '246')} day03.PointList{ .x = { 119, 120, 121 }, .y = { 53, 53, 53 }, .index = 0 }
+{123..126,53,[3]const u8: '236' (source: '236')} day03.PointList{ .x = { 123, 124, 125 }, .y = { 53, 53, 53 }, .index = 0 }
+{0..3,54,[3]const u8: '652' (source: '652')} day03.PointList{ .x = { 0, 1, 2 }, .y = { 54, 54, 54 }, .index = 0 }
+{42..44,54,[2]const u8: '74' (source: '74')} day03.PointList{ .x = { 42, 43 }, .y = { 54, 54 }, .index = 0 }
+{49..52,54,[3]const u8: '822' (source: '822')} day03.PointList{ .x = { 49, 50, 51 }, .y = { 54, 54, 54 }, .index = 0 }
+{77..80,54,[3]const u8: '533' (source: '533')} day03.PointList{ .x = { 77, 78, 79 }, .y = { 54, 54, 54 }, .index = 0 }
+{89..92,54,[3]const u8: '764' (source: '764')} day03.PointList{ .x = { 89, 90, 91 }, .y = { 54, 54, 54 }, .index = 0 }
+{4..7,55,[3]const u8: '920' (source: '920')} day03.PointList{ .x = { 4, 5, 6 }, .y = { 55, 55, 55 }, .index = 0 }
+{8..10,55,[2]const u8: '64' (source: '64')} day03.PointList{ .x = { 8, 9 }, .y = { 55, 55 }, .index = 0 }
+{16..19,55,[3]const u8: '437' (source: '437')} day03.PointList{ .x = { 16, 17, 18 }, .y = { 55, 55, 55 }, .index = 0 }
+{25..28,55,[3]const u8: '598' (source: '598')} day03.PointList{ .x = { 25, 26, 27 }, .y = { 55, 55, 55 }, .index = 0 }
+{32..35,55,[3]const u8: '738' (source: '738')} day03.PointList{ .x = { 32, 33, 34 }, .y = { 55, 55, 55 }, .index = 0 }
+{55..57,55,[2]const u8: '44' (source: '44')} day03.PointList{ .x = { 55, 56 }, .y = { 55, 55 }, .index = 0 }
+{60..63,55,[3]const u8: '625' (source: '625')} day03.PointList{ .x = { 60, 61, 62 }, .y = { 55, 55, 55 }, .index = 0 }
+{71..74,55,[3]const u8: '879' (source: '879')} day03.PointList{ .x = { 71, 72, 73 }, .y = { 55, 55, 55 }, .index = 0 }
+{83..86,55,[3]const u8: '879' (source: '879')} day03.PointList{ .x = { 83, 84, 85 }, .y = { 55, 55, 55 }, .index = 0 }
+{93..96,55,[3]const u8: '668' (source: '668')} day03.PointList{ .x = { 93, 94, 95 }, .y = { 55, 55, 55 }, .index = 0 }
+{105..108,55,[3]const u8: '509' (source: '509')} day03.PointList{ .x = { 105, 106, 107 }, .y = { 55, 55, 55 }, .index = 0 }
+{111..114,55,[3]const u8: '385' (source: '385')} day03.PointList{ .x = { 111, 112, 113 }, .y = { 55, 55, 55 }, .index = 0 }
+{116..119,55,[3]const u8: '123' (source: '123')} day03.PointList{ .x = { 116, 117, 118 }, .y = { 55, 55, 55 }, .index = 0 }
+{123..126,55,[3]const u8: '677' (source: '677')} day03.PointList{ .x = { 123, 124, 125 }, .y = { 55, 55, 55 }, .index = 0 }
+{128..131,55,[3]const u8: '553' (source: '553')} day03.PointList{ .x = { 128, 129, 130 }, .y = { 55, 55, 55 }, .index = 0 }
+{132..134,55,[2]const u8: '62' (source: '62')} day03.PointList{ .x = { 132, 133 }, .y = { 55, 55 }, .index = 0 }
+{11..14,56,[3]const u8: '783' (source: '783')} day03.PointList{ .x = { 11, 12, 13 }, .y = { 56, 56, 56 }, .index = 0 }
+{37..40,56,[3]const u8: '552' (source: '552')} day03.PointList{ .x = { 37, 38, 39 }, .y = { 56, 56, 56 }, .index = 0 }
+{43..46,56,[3]const u8: '534' (source: '534')} day03.PointList{ .x = { 43, 44, 45 }, .y = { 56, 56, 56 }, .index = 0 }
+{67..70,56,[3]const u8: '312' (source: '312')} day03.PointList{ .x = { 67, 68, 69 }, .y = { 56, 56, 56 }, .index = 0 }
+{97..100,56,[3]const u8: '819' (source: '819')} day03.PointList{ .x = { 97, 98, 99 }, .y = { 56, 56, 56 }, .index = 0 }
+{4..7,57,[3]const u8: '779' (source: '779')} day03.PointList{ .x = { 4, 5, 6 }, .y = { 57, 57, 57 }, .index = 0 }
+{19..21,57,[2]const u8: '21' (source: '21')} day03.PointList{ .x = { 19, 20 }, .y = { 57, 57 }, .index = 0 }
+{23..26,57,[3]const u8: '582' (source: '582')} day03.PointList{ .x = { 23, 24, 25 }, .y = { 57, 57, 57 }, .index = 0 }
+{32..35,57,[3]const u8: '264' (source: '264')} day03.PointList{ .x = { 32, 33, 34 }, .y = { 57, 57, 57 }, .index = 0 }
+{58..61,57,[3]const u8: '564' (source: '564')} day03.PointList{ .x = { 58, 59, 60 }, .y = { 57, 57, 57 }, .index = 0 }
+{76..79,57,[3]const u8: '561' (source: '561')} day03.PointList{ .x = { 76, 77, 78 }, .y = { 57, 57, 57 }, .index = 0 }
+{87..90,57,[3]const u8: '811' (source: '811')} day03.PointList{ .x = { 87, 88, 89 }, .y = { 57, 57, 57 }, .index = 0 }
+{117..120,57,[3]const u8: '943' (source: '943')} day03.PointList{ .x = { 117, 118, 119 }, .y = { 57, 57, 57 }, .index = 0 }
+{124..126,57,[2]const u8: '68' (source: '68')} day03.PointList{ .x = { 124, 125 }, .y = { 57, 57 }, .index = 0 }
+{43..46,58,[3]const u8: '915' (source: '915')} day03.PointList{ .x = { 43, 44, 45 }, .y = { 58, 58, 58 }, .index = 0 }
+{71..74,58,[3]const u8: '848' (source: '848')} day03.PointList{ .x = { 71, 72, 73 }, .y = { 58, 58, 58 }, .index = 0 }
+{81..84,58,[3]const u8: '943' (source: '943')} day03.PointList{ .x = { 81, 82, 83 }, .y = { 58, 58, 58 }, .index = 0 }
+{93..96,58,[3]const u8: '803' (source: '803')} day03.PointList{ .x = { 93, 94, 95 }, .y = { 58, 58, 58 }, .index = 0 }
+{127..130,58,[3]const u8: '386' (source: '386')} day03.PointList{ .x = { 127, 128, 129 }, .y = { 58, 58, 58 }, .index = 0 }
+{27..29,59,[2]const u8: '62' (source: '62')} day03.PointList{ .x = { 27, 28 }, .y = { 59, 59 }, .index = 0 }
+{37..40,59,[3]const u8: '668' (source: '668')} day03.PointList{ .x = { 37, 38, 39 }, .y = { 59, 59, 59 }, .index = 0 }
+{97..100,59,[3]const u8: '878' (source: '878')} day03.PointList{ .x = { 97, 98, 99 }, .y = { 59, 59, 59 }, .index = 0 }
+{107..110,59,[3]const u8: '212' (source: '212')} day03.PointList{ .x = { 107, 108, 109 }, .y = { 59, 59, 59 }, .index = 0 }
+{114..117,59,[3]const u8: '613' (source: '613')} day03.PointList{ .x = { 114, 115, 116 }, .y = { 59, 59, 59 }, .index = 0 }
+{7..10,60,[3]const u8: '208' (source: '208')} day03.PointList{ .x = { 7, 8, 9 }, .y = { 60, 60, 60 }, .index = 0 }
+{17..20,60,[3]const u8: '302' (source: '302')} day03.PointList{ .x = { 17, 18, 19 }, .y = { 60, 60, 60 }, .index = 0 }
+{52..55,60,[3]const u8: '717' (source: '717')} day03.PointList{ .x = { 52, 53, 54 }, .y = { 60, 60, 60 }, .index = 0 }
+{63..66,60,[3]const u8: '237' (source: '237')} day03.PointList{ .x = { 63, 64, 65 }, .y = { 60, 60, 60 }, .index = 0 }
+{71..73,60,[2]const u8: '11' (source: '11')} day03.PointList{ .x = { 71, 72 }, .y = { 60, 60 }, .index = 0 }
+{82..85,60,[3]const u8: '551' (source: '551')} day03.PointList{ .x = { 82, 83, 84 }, .y = { 60, 60, 60 }, .index = 0 }
+{86..89,60,[3]const u8: '569' (source: '569')} day03.PointList{ .x = { 86, 87, 88 }, .y = { 60, 60, 60 }, .index = 0 }
+{122..125,60,[3]const u8: '717' (source: '717')} day03.PointList{ .x = { 122, 123, 124 }, .y = { 60, 60, 60 }, .index = 0 }
+{26..28,61,[2]const u8: '15' (source: '15')} day03.PointList{ .x = { 26, 27 }, .y = { 61, 61 }, .index = 0 }
+{29..32,61,[3]const u8: '402' (source: '402')} day03.PointList{ .x = { 29, 30, 31 }, .y = { 61, 61, 61 }, .index = 0 }
+{36..39,61,[3]const u8: '806' (source: '806')} day03.PointList{ .x = { 36, 37, 38 }, .y = { 61, 61, 61 }, .index = 0 }
+{42..44,61,[2]const u8: '84' (source: '84')} day03.PointList{ .x = { 42, 43 }, .y = { 61, 61 }, .index = 0 }
+{47..50,61,[3]const u8: '527' (source: '527')} day03.PointList{ .x = { 47, 48, 49 }, .y = { 61, 61, 61 }, .index = 0 }
+{77..80,61,[3]const u8: '650' (source: '650')} day03.PointList{ .x = { 77, 78, 79 }, .y = { 61, 61, 61 }, .index = 0 }
+{92..94,61,[2]const u8: '56' (source: '56')} day03.PointList{ .x = { 92, 93 }, .y = { 61, 61 }, .index = 0 }
+{99..102,61,[3]const u8: '401' (source: '401')} day03.PointList{ .x = { 99, 100, 101 }, .y = { 61, 61, 61 }, .index = 0 }
+{105..108,61,[3]const u8: '276' (source: '276')} day03.PointList{ .x = { 105, 106, 107 }, .y = { 61, 61, 61 }, .index = 0 }
+{114..117,61,[3]const u8: '964' (source: '964')} day03.PointList{ .x = { 114, 115, 116 }, .y = { 61, 61, 61 }, .index = 0 }
+{52..55,62,[3]const u8: '411' (source: '411')} day03.PointList{ .x = { 52, 53, 54 }, .y = { 62, 62, 62 }, .index = 0 }
+{58..61,62,[3]const u8: '277' (source: '277')} day03.PointList{ .x = { 58, 59, 60 }, .y = { 62, 62, 62 }, .index = 0 }
+{62..65,62,[3]const u8: '722' (source: '722')} day03.PointList{ .x = { 62, 63, 64 }, .y = { 62, 62, 62 }, .index = 0 }
+{66..69,62,[3]const u8: '337' (source: '337')} day03.PointList{ .x = { 66, 67, 68 }, .y = { 62, 62, 62 }, .index = 0 }
+{84..87,62,[3]const u8: '915' (source: '915')} day03.PointList{ .x = { 84, 85, 86 }, .y = { 62, 62, 62 }, .index = 0 }
+{128..131,62,[3]const u8: '356' (source: '356')} day03.PointList{ .x = { 128, 129, 130 }, .y = { 62, 62, 62 }, .index = 0 }
+{135..138,62,[3]const u8: '553' (source: '553')} day03.PointList{ .x = { 135, 136, 137 }, .y = { 62, 62, 62 }, .index = 0 }
+{11..12,63,[1]const u8: '2' (source: '2')} day03.PointList{ .x = { 11 }, .y = { 63 }, .index = 0 }
+{21..24,63,[3]const u8: '406' (source: '406')} day03.PointList{ .x = { 21, 22, 23 }, .y = { 63, 63, 63 }, .index = 0 }
+{39..42,63,[3]const u8: '922' (source: '922')} day03.PointList{ .x = { 39, 40, 41 }, .y = { 63, 63, 63 }, .index = 0 }
+{76..79,63,[3]const u8: '403' (source: '403')} day03.PointList{ .x = { 76, 77, 78 }, .y = { 63, 63, 63 }, .index = 0 }
+{101..104,63,[3]const u8: '316' (source: '316')} day03.PointList{ .x = { 101, 102, 103 }, .y = { 63, 63, 63 }, .index = 0 }
+{114..116,63,[2]const u8: '84' (source: '84')} day03.PointList{ .x = { 114, 115 }, .y = { 63, 63 }, .index = 0 }
+{7..10,64,[3]const u8: '385' (source: '385')} day03.PointList{ .x = { 7, 8, 9 }, .y = { 64, 64, 64 }, .index = 0 }
+{28..31,64,[3]const u8: '200' (source: '200')} day03.PointList{ .x = { 28, 29, 30 }, .y = { 64, 64, 64 }, .index = 0 }
+{43..46,64,[3]const u8: '150' (source: '150')} day03.PointList{ .x = { 43, 44, 45 }, .y = { 64, 64, 64 }, .index = 0 }
+{57..60,64,[3]const u8: '420' (source: '420')} day03.PointList{ .x = { 57, 58, 59 }, .y = { 64, 64, 64 }, .index = 0 }
+{61..64,64,[3]const u8: '548' (source: '548')} day03.PointList{ .x = { 61, 62, 63 }, .y = { 64, 64, 64 }, .index = 0 }
+{71..75,64,[4]const u8: '+111' (source: '+111')} day03.PointList{ .x = { 71, 72, 73, 74 }, .y = { 64, 64, 64, 64 }, .index = 0 }
+{86..88,64,[2]const u8: '70' (source: '70')} day03.PointList{ .x = { 86, 87 }, .y = { 64, 64 }, .index = 0 }
+{121..124,64,[3]const u8: '895' (source: '895')} day03.PointList{ .x = { 121, 122, 123 }, .y = { 64, 64, 64 }, .index = 0 }
+{52..55,65,[3]const u8: '532' (source: '532')} day03.PointList{ .x = { 52, 53, 54 }, .y = { 65, 65, 65 }, .index = 0 }
+{66..68,65,[2]const u8: '23' (source: '23')} day03.PointList{ .x = { 66, 67 }, .y = { 65, 65 }, .index = 0 }
+{125..128,65,[3]const u8: '920' (source: '920')} day03.PointList{ .x = { 125, 126, 127 }, .y = { 65, 65, 65 }, .index = 0 }
+{137..140,65,[3]const u8: '844' (source: '844')} day03.PointList{ .x = { 137, 138, 139 }, .y = { 65, 65, 65 }, .index = 0 }
+{44..46,66,[2]const u8: '31' (source: '31')} day03.PointList{ .x = { 44, 45 }, .y = { 66, 66 }, .index = 0 }
+{48..51,66,[3]const u8: '638' (source: '638')} day03.PointList{ .x = { 48, 49, 50 }, .y = { 66, 66, 66 }, .index = 0 }
+{58..61,66,[3]const u8: '580' (source: '580')} day03.PointList{ .x = { 58, 59, 60 }, .y = { 66, 66, 66 }, .index = 0 }
+{94..97,66,[3]const u8: '397' (source: '397')} day03.PointList{ .x = { 94, 95, 96 }, .y = { 66, 66, 66 }, .index = 0 }
+{99..102,66,[3]const u8: '720' (source: '720')} day03.PointList{ .x = { 99, 100, 101 }, .y = { 66, 66, 66 }, .index = 0 }
+{112..115,66,[3]const u8: '161' (source: '161')} day03.PointList{ .x = { 112, 113, 114 }, .y = { 66, 66, 66 }, .index = 0 }
+{129..132,66,[3]const u8: '628' (source: '628')} day03.PointList{ .x = { 129, 130, 131 }, .y = { 66, 66, 66 }, .index = 0 }
+{6..9,67,[3]const u8: '816' (source: '816')} day03.PointList{ .x = { 6, 7, 8 }, .y = { 67, 67, 67 }, .index = 0 }
+{23..26,67,[3]const u8: '669' (source: '669')} day03.PointList{ .x = { 23, 24, 25 }, .y = { 67, 67, 67 }, .index = 0 }
+{30..32,67,[2]const u8: '36' (source: '36')} day03.PointList{ .x = { 30, 31 }, .y = { 67, 67 }, .index = 0 }
+{40..43,67,[3]const u8: '848' (source: '848')} day03.PointList{ .x = { 40, 41, 42 }, .y = { 67, 67, 67 }, .index = 0 }
+{53..56,67,[3]const u8: '884' (source: '884')} day03.PointList{ .x = { 53, 54, 55 }, .y = { 67, 67, 67 }, .index = 0 }
+{119..122,67,[3]const u8: '914' (source: '914')} day03.PointList{ .x = { 119, 120, 121 }, .y = { 67, 67, 67 }, .index = 0 }
+{125..128,67,[3]const u8: '356' (source: '356')} day03.PointList{ .x = { 125, 126, 127 }, .y = { 67, 67, 67 }, .index = 0 }
+{133..136,67,[3]const u8: '210' (source: '210')} day03.PointList{ .x = { 133, 134, 135 }, .y = { 67, 67, 67 }, .index = 0 }
+{15..18,68,[3]const u8: '646' (source: '646')} day03.PointList{ .x = { 15, 16, 17 }, .y = { 68, 68, 68 }, .index = 0 }
+{59..62,68,[3]const u8: '542' (source: '542')} day03.PointList{ .x = { 59, 60, 61 }, .y = { 68, 68, 68 }, .index = 0 }
+{98..101,68,[3]const u8: '370' (source: '370')} day03.PointList{ .x = { 98, 99, 100 }, .y = { 68, 68, 68 }, .index = 0 }
+{107..110,68,[3]const u8: '686' (source: '686')} day03.PointList{ .x = { 107, 108, 109 }, .y = { 68, 68, 68 }, .index = 0 }
+{111..114,68,[3]const u8: '567' (source: '567')} day03.PointList{ .x = { 111, 112, 113 }, .y = { 68, 68, 68 }, .index = 0 }
+{19..21,69,[2]const u8: '94' (source: '94')} day03.PointList{ .x = { 19, 20 }, .y = { 69, 69 }, .index = 0 }
+{37..40,69,[3]const u8: '414' (source: '414')} day03.PointList{ .x = { 37, 38, 39 }, .y = { 69, 69, 69 }, .index = 0 }
+{46..48,69,[2]const u8: '18' (source: '18')} day03.PointList{ .x = { 46, 47 }, .y = { 69, 69 }, .index = 0 }
+{77..80,69,[3]const u8: '861' (source: '861')} day03.PointList{ .x = { 77, 78, 79 }, .y = { 69, 69, 69 }, .index = 0 }
+{90..93,69,[3]const u8: '878' (source: '878')} day03.PointList{ .x = { 90, 91, 92 }, .y = { 69, 69, 69 }, .index = 0 }
+{133..136,69,[3]const u8: '864' (source: '864')} day03.PointList{ .x = { 133, 134, 135 }, .y = { 69, 69, 69 }, .index = 0 }
+{137..140,69,[3]const u8: '989' (source: '989')} day03.PointList{ .x = { 137, 138, 139 }, .y = { 69, 69, 69 }, .index = 0 }
+{29..32,70,[3]const u8: '665' (source: '665')} day03.PointList{ .x = { 29, 30, 31 }, .y = { 70, 70, 70 }, .index = 0 }
+{50..53,70,[3]const u8: '595' (source: '595')} day03.PointList{ .x = { 50, 51, 52 }, .y = { 70, 70, 70 }, .index = 0 }
+{63..66,70,[3]const u8: '201' (source: '201')} day03.PointList{ .x = { 63, 64, 65 }, .y = { 70, 70, 70 }, .index = 0 }
+{72..75,70,[3]const u8: '738' (source: '738')} day03.PointList{ .x = { 72, 73, 74 }, .y = { 70, 70, 70 }, .index = 0 }
+{81..84,70,[3]const u8: '784' (source: '784')} day03.PointList{ .x = { 81, 82, 83 }, .y = { 70, 70, 70 }, .index = 0 }
+{86..89,70,[3]const u8: '187' (source: '187')} day03.PointList{ .x = { 86, 87, 88 }, .y = { 70, 70, 70 }, .index = 0 }
+{17..20,71,[3]const u8: '126' (source: '126')} day03.PointList{ .x = { 17, 18, 19 }, .y = { 71, 71, 71 }, .index = 0 }
+{46..49,71,[3]const u8: '486' (source: '486')} day03.PointList{ .x = { 46, 47, 48 }, .y = { 71, 71, 71 }, .index = 0 }
+{56..59,71,[3]const u8: '638' (source: '638')} day03.PointList{ .x = { 56, 57, 58 }, .y = { 71, 71, 71 }, .index = 0 }
+{98..101,71,[3]const u8: '242' (source: '242')} day03.PointList{ .x = { 98, 99, 100 }, .y = { 71, 71, 71 }, .index = 0 }
+{123..125,71,[2]const u8: '63' (source: '63')} day03.PointList{ .x = { 123, 124 }, .y = { 71, 71 }, .index = 0 }
+{126..129,71,[3]const u8: '837' (source: '837')} day03.PointList{ .x = { 126, 127, 128 }, .y = { 71, 71, 71 }, .index = 0 }
+{130..133,71,[3]const u8: '723' (source: '723')} day03.PointList{ .x = { 130, 131, 132 }, .y = { 71, 71, 71 }, .index = 0 }
+{134..136,71,[2]const u8: '41' (source: '41')} day03.PointList{ .x = { 134, 135 }, .y = { 71, 71 }, .index = 0 }
+{11..13,72,[2]const u8: '35' (source: '35')} day03.PointList{ .x = { 11, 12 }, .y = { 72, 72 }, .index = 0 }
+{33..36,72,[3]const u8: '114' (source: '114')} day03.PointList{ .x = { 33, 34, 35 }, .y = { 72, 72, 72 }, .index = 0 }
+{51..54,72,[3]const u8: '661' (source: '661')} day03.PointList{ .x = { 51, 52, 53 }, .y = { 72, 72, 72 }, .index = 0 }
+{63..66,72,[3]const u8: '534' (source: '534')} day03.PointList{ .x = { 63, 64, 65 }, .y = { 72, 72, 72 }, .index = 0 }
+{85..88,72,[3]const u8: '796' (source: '796')} day03.PointList{ .x = { 85, 86, 87 }, .y = { 72, 72, 72 }, .index = 0 }
+{90..92,72,[2]const u8: '28' (source: '28')} day03.PointList{ .x = { 90, 91 }, .y = { 72, 72 }, .index = 0 }
+{102..105,72,[3]const u8: '579' (source: '579')} day03.PointList{ .x = { 102, 103, 104 }, .y = { 72, 72, 72 }, .index = 0 }
+{111..114,72,[3]const u8: '367' (source: '367')} day03.PointList{ .x = { 111, 112, 113 }, .y = { 72, 72, 72 }, .index = 0 }
+{116..118,72,[2]const u8: '78' (source: '78')} day03.PointList{ .x = { 116, 117 }, .y = { 72, 72 }, .index = 0 }
+{119..122,72,[3]const u8: '929' (source: '929')} day03.PointList{ .x = { 119, 120, 121 }, .y = { 72, 72, 72 }, .index = 0 }
+{6..9,73,[3]const u8: '108' (source: '108')} day03.PointList{ .x = { 6, 7, 8 }, .y = { 73, 73, 73 }, .index = 0 }
+{79..80,73,[1]const u8: '5' (source: '5')} day03.PointList{ .x = { 79 }, .y = { 73 }, .index = 0 }
+{127..130,73,[3]const u8: '669' (source: '669')} day03.PointList{ .x = { 127, 128, 129 }, .y = { 73, 73, 73 }, .index = 0 }
+{131..134,73,[3]const u8: '533' (source: '533')} day03.PointList{ .x = { 131, 132, 133 }, .y = { 73, 73, 73 }, .index = 0 }
+{136..139,73,[3]const u8: '704' (source: '704')} day03.PointList{ .x = { 136, 137, 138 }, .y = { 73, 73, 73 }, .index = 0 }
+{43..46,74,[3]const u8: '290' (source: '290')} day03.PointList{ .x = { 43, 44, 45 }, .y = { 74, 74, 74 }, .index = 0 }
+{51..54,74,[3]const u8: '544' (source: '544')} day03.PointList{ .x = { 51, 52, 53 }, .y = { 74, 74, 74 }, .index = 0 }
+{67..70,74,[3]const u8: '707' (source: '707')} day03.PointList{ .x = { 67, 68, 69 }, .y = { 74, 74, 74 }, .index = 0 }
+{89..92,74,[3]const u8: '465' (source: '465')} day03.PointList{ .x = { 89, 90, 91 }, .y = { 74, 74, 74 }, .index = 0 }
+{94..97,74,[3]const u8: '632' (source: '632')} day03.PointList{ .x = { 94, 95, 96 }, .y = { 74, 74, 74 }, .index = 0 }
+{102..105,74,[3]const u8: '771' (source: '771')} day03.PointList{ .x = { 102, 103, 104 }, .y = { 74, 74, 74 }, .index = 0 }
+{108..111,74,[3]const u8: '181' (source: '181')} day03.PointList{ .x = { 108, 109, 110 }, .y = { 74, 74, 74 }, .index = 0 }
+{119..122,74,[3]const u8: '471' (source: '471')} day03.PointList{ .x = { 119, 120, 121 }, .y = { 74, 74, 74 }, .index = 0 }
+{5..8,75,[3]const u8: '114' (source: '114')} day03.PointList{ .x = { 5, 6, 7 }, .y = { 75, 75, 75 }, .index = 0 }
+{26..29,75,[3]const u8: '699' (source: '699')} day03.PointList{ .x = { 26, 27, 28 }, .y = { 75, 75, 75 }, .index = 0 }
+{60..63,75,[3]const u8: '416' (source: '416')} day03.PointList{ .x = { 60, 61, 62 }, .y = { 75, 75, 75 }, .index = 0 }
+{114..117,75,[3]const u8: '365' (source: '365')} day03.PointList{ .x = { 114, 115, 116 }, .y = { 75, 75, 75 }, .index = 0 }
+{132..135,75,[3]const u8: '131' (source: '131')} day03.PointList{ .x = { 132, 133, 134 }, .y = { 75, 75, 75 }, .index = 0 }
+{37..40,76,[3]const u8: '410' (source: '410')} day03.PointList{ .x = { 37, 38, 39 }, .y = { 76, 76, 76 }, .index = 0 }
+{44..46,76,[2]const u8: '64' (source: '64')} day03.PointList{ .x = { 44, 45 }, .y = { 76, 76 }, .index = 0 }
+{77..80,76,[3]const u8: '684' (source: '684')} day03.PointList{ .x = { 77, 78, 79 }, .y = { 76, 76, 76 }, .index = 0 }
+{85..87,76,[2]const u8: '15' (source: '15')} day03.PointList{ .x = { 85, 86 }, .y = { 76, 76 }, .index = 0 }
+{92..95,76,[3]const u8: '317' (source: '317')} day03.PointList{ .x = { 92, 93, 94 }, .y = { 76, 76, 76 }, .index = 0 }
+{9..11,77,[2]const u8: '26' (source: '26')} day03.PointList{ .x = { 9, 10 }, .y = { 77, 77 }, .index = 0 }
+{12..15,77,[3]const u8: '609' (source: '609')} day03.PointList{ .x = { 12, 13, 14 }, .y = { 77, 77, 77 }, .index = 0 }
+{23..26,77,[3]const u8: '152' (source: '152')} day03.PointList{ .x = { 23, 24, 25 }, .y = { 77, 77, 77 }, .index = 0 }
+{50..52,77,[2]const u8: '94' (source: '94')} day03.PointList{ .x = { 50, 51 }, .y = { 77, 77 }, .index = 0 }
+{53..56,77,[3]const u8: '498' (source: '498')} day03.PointList{ .x = { 53, 54, 55 }, .y = { 77, 77, 77 }, .index = 0 }
+{61..63,77,[2]const u8: '26' (source: '26')} day03.PointList{ .x = { 61, 62 }, .y = { 77, 77 }, .index = 0 }
+{69..72,77,[3]const u8: '671' (source: '671')} day03.PointList{ .x = { 69, 70, 71 }, .y = { 77, 77, 77 }, .index = 0 }
+{102..105,77,[3]const u8: '718' (source: '718')} day03.PointList{ .x = { 102, 103, 104 }, .y = { 77, 77, 77 }, .index = 0 }
+{108..111,77,[3]const u8: '824' (source: '824')} day03.PointList{ .x = { 108, 109, 110 }, .y = { 77, 77, 77 }, .index = 0 }
+{116..118,77,[2]const u8: '56' (source: '56')} day03.PointList{ .x = { 116, 117 }, .y = { 77, 77 }, .index = 0 }
+{129..132,77,[3]const u8: '915' (source: '915')} day03.PointList{ .x = { 129, 130, 131 }, .y = { 77, 77, 77 }, .index = 0 }
+{2..5,78,[3]const u8: '218' (source: '218')} day03.PointList{ .x = { 2, 3, 4 }, .y = { 78, 78, 78 }, .index = 0 }
+{30..33,78,[3]const u8: '786' (source: '786')} day03.PointList{ .x = { 30, 31, 32 }, .y = { 78, 78, 78 }, .index = 0 }
+{38..41,78,[3]const u8: '839' (source: '839')} day03.PointList{ .x = { 38, 39, 40 }, .y = { 78, 78, 78 }, .index = 0 }
+{57..60,78,[3]const u8: '790' (source: '790')} day03.PointList{ .x = { 57, 58, 59 }, .y = { 78, 78, 78 }, .index = 0 }
+{65..68,78,[3]const u8: '192' (source: '192')} day03.PointList{ .x = { 65, 66, 67 }, .y = { 78, 78, 78 }, .index = 0 }
+{77..80,78,[3]const u8: '181' (source: '181')} day03.PointList{ .x = { 77, 78, 79 }, .y = { 78, 78, 78 }, .index = 0 }
+{86..89,78,[3]const u8: '836' (source: '836')} day03.PointList{ .x = { 86, 87, 88 }, .y = { 78, 78, 78 }, .index = 0 }
+{93..96,78,[3]const u8: '287' (source: '287')} day03.PointList{ .x = { 93, 94, 95 }, .y = { 78, 78, 78 }, .index = 0 }
+{6..9,79,[3]const u8: '937' (source: '937')} day03.PointList{ .x = { 6, 7, 8 }, .y = { 79, 79, 79 }, .index = 0 }
+{10..13,79,[3]const u8: '722' (source: '722')} day03.PointList{ .x = { 10, 11, 12 }, .y = { 79, 79, 79 }, .index = 0 }
+{69..72,79,[3]const u8: '449' (source: '449')} day03.PointList{ .x = { 69, 70, 71 }, .y = { 79, 79, 79 }, .index = 0 }
+{99..102,79,[3]const u8: '226' (source: '226')} day03.PointList{ .x = { 99, 100, 101 }, .y = { 79, 79, 79 }, .index = 0 }
+{125..128,79,[3]const u8: '428' (source: '428')} day03.PointList{ .x = { 125, 126, 127 }, .y = { 79, 79, 79 }, .index = 0 }
+{135..138,79,[3]const u8: '341' (source: '341')} day03.PointList{ .x = { 135, 136, 137 }, .y = { 79, 79, 79 }, .index = 0 }
+{1..4,80,[3]const u8: '795' (source: '795')} day03.PointList{ .x = { 1, 2, 3 }, .y = { 80, 80, 80 }, .index = 0 }
+{15..18,80,[3]const u8: '185' (source: '185')} day03.PointList{ .x = { 15, 16, 17 }, .y = { 80, 80, 80 }, .index = 0 }
+{20..23,80,[3]const u8: '405' (source: '405')} day03.PointList{ .x = { 20, 21, 22 }, .y = { 80, 80, 80 }, .index = 0 }
+{28..30,80,[2]const u8: '60' (source: '60')} day03.PointList{ .x = { 28, 29 }, .y = { 80, 80 }, .index = 0 }
+{31..34,80,[3]const u8: '121' (source: '121')} day03.PointList{ .x = { 31, 32, 33 }, .y = { 80, 80, 80 }, .index = 0 }
+{38..41,80,[3]const u8: '159' (source: '159')} day03.PointList{ .x = { 38, 39, 40 }, .y = { 80, 80, 80 }, .index = 0 }
+{48..51,80,[3]const u8: '275' (source: '275')} day03.PointList{ .x = { 48, 49, 50 }, .y = { 80, 80, 80 }, .index = 0 }
+{54..57,80,[3]const u8: '996' (source: '996')} day03.PointList{ .x = { 54, 55, 56 }, .y = { 80, 80, 80 }, .index = 0 }
+{74..77,80,[3]const u8: '981' (source: '981')} day03.PointList{ .x = { 74, 75, 76 }, .y = { 80, 80, 80 }, .index = 0 }
+{82..85,80,[3]const u8: '710' (source: '710')} day03.PointList{ .x = { 82, 83, 84 }, .y = { 80, 80, 80 }, .index = 0 }
+{93..96,80,[3]const u8: '363' (source: '363')} day03.PointList{ .x = { 93, 94, 95 }, .y = { 80, 80, 80 }, .index = 0 }
+{103..106,80,[3]const u8: '528' (source: '528')} day03.PointList{ .x = { 103, 104, 105 }, .y = { 80, 80, 80 }, .index = 0 }
+{112..115,80,[3]const u8: '888' (source: '888')} day03.PointList{ .x = { 112, 113, 114 }, .y = { 80, 80, 80 }, .index = 0 }
+{131..134,80,[3]const u8: '880' (source: '880')} day03.PointList{ .x = { 131, 132, 133 }, .y = { 80, 80, 80 }, .index = 0 }
+{6..9,81,[3]const u8: '806' (source: '806')} day03.PointList{ .x = { 6, 7, 8 }, .y = { 81, 81, 81 }, .index = 0 }
+{58..61,81,[3]const u8: '545' (source: '545')} day03.PointList{ .x = { 58, 59, 60 }, .y = { 81, 81, 81 }, .index = 0 }
+{63..66,81,[3]const u8: '467' (source: '467')} day03.PointList{ .x = { 63, 64, 65 }, .y = { 81, 81, 81 }, .index = 0 }
+{69..72,81,[3]const u8: '289' (source: '289')} day03.PointList{ .x = { 69, 70, 71 }, .y = { 81, 81, 81 }, .index = 0 }
+{89..92,81,[3]const u8: '681' (source: '681')} day03.PointList{ .x = { 89, 90, 91 }, .y = { 81, 81, 81 }, .index = 0 }
+{108..110,81,[2]const u8: '86' (source: '86')} day03.PointList{ .x = { 108, 109 }, .y = { 81, 81 }, .index = 0 }
+{116..119,81,[3]const u8: '326' (source: '326')} day03.PointList{ .x = { 116, 117, 118 }, .y = { 81, 81, 81 }, .index = 0 }
+{126..129,81,[3]const u8: '664' (source: '664')} day03.PointList{ .x = { 126, 127, 128 }, .y = { 81, 81, 81 }, .index = 0 }
+{13..16,82,[3]const u8: '221' (source: '221')} day03.PointList{ .x = { 13, 14, 15 }, .y = { 82, 82, 82 }, .index = 0 }
+{21..24,82,[3]const u8: '142' (source: '142')} day03.PointList{ .x = { 21, 22, 23 }, .y = { 82, 82, 82 }, .index = 0 }
+{35..38,82,[3]const u8: '933' (source: '933')} day03.PointList{ .x = { 35, 36, 37 }, .y = { 82, 82, 82 }, .index = 0 }
+{40..43,82,[3]const u8: '653' (source: '653')} day03.PointList{ .x = { 40, 41, 42 }, .y = { 82, 82, 82 }, .index = 0 }
+{45..48,82,[3]const u8: '291' (source: '291')} day03.PointList{ .x = { 45, 46, 47 }, .y = { 82, 82, 82 }, .index = 0 }
+{75..78,82,[3]const u8: '300' (source: '300')} day03.PointList{ .x = { 75, 76, 77 }, .y = { 82, 82, 82 }, .index = 0 }
+{83..86,82,[3]const u8: '811' (source: '811')} day03.PointList{ .x = { 83, 84, 85 }, .y = { 82, 82, 82 }, .index = 0 }
+{49..52,83,[3]const u8: '861' (source: '861')} day03.PointList{ .x = { 49, 50, 51 }, .y = { 83, 83, 83 }, .index = 0 }
+{61..64,83,[3]const u8: '149' (source: '149')} day03.PointList{ .x = { 61, 62, 63 }, .y = { 83, 83, 83 }, .index = 0 }
+{79..82,83,[3]const u8: '673' (source: '673')} day03.PointList{ .x = { 79, 80, 81 }, .y = { 83, 83, 83 }, .index = 0 }
+{88..91,83,[3]const u8: '762' (source: '762')} day03.PointList{ .x = { 88, 89, 90 }, .y = { 83, 83, 83 }, .index = 0 }
+{106..109,83,[3]const u8: '588' (source: '588')} day03.PointList{ .x = { 106, 107, 108 }, .y = { 83, 83, 83 }, .index = 0 }
+{133..136,83,[3]const u8: '316' (source: '316')} day03.PointList{ .x = { 133, 134, 135 }, .y = { 83, 83, 83 }, .index = 0 }
+{2..5,84,[3]const u8: '373' (source: '373')} day03.PointList{ .x = { 2, 3, 4 }, .y = { 84, 84, 84 }, .index = 0 }
+{11..14,84,[3]const u8: '290' (source: '290')} day03.PointList{ .x = { 11, 12, 13 }, .y = { 84, 84, 84 }, .index = 0 }
+{44..47,84,[3]const u8: '665' (source: '665')} day03.PointList{ .x = { 44, 45, 46 }, .y = { 84, 84, 84 }, .index = 0 }
+{92..94,84,[2]const u8: '51' (source: '51')} day03.PointList{ .x = { 92, 93 }, .y = { 84, 84 }, .index = 0 }
+{115..118,84,[3]const u8: '105' (source: '105')} day03.PointList{ .x = { 115, 116, 117 }, .y = { 84, 84, 84 }, .index = 0 }
+{125..128,84,[3]const u8: '162' (source: '162')} day03.PointList{ .x = { 125, 126, 127 }, .y = { 84, 84, 84 }, .index = 0 }
+{18..21,85,[3]const u8: '388' (source: '388')} day03.PointList{ .x = { 18, 19, 20 }, .y = { 85, 85, 85 }, .index = 0 }
+{33..36,85,[3]const u8: '772' (source: '772')} day03.PointList{ .x = { 33, 34, 35 }, .y = { 85, 85, 85 }, .index = 0 }
+{60..62,85,[2]const u8: '57' (source: '57')} day03.PointList{ .x = { 60, 61 }, .y = { 85, 85 }, .index = 0 }
+{66..69,85,[3]const u8: '163' (source: '163')} day03.PointList{ .x = { 66, 67, 68 }, .y = { 85, 85, 85 }, .index = 0 }
+{71..74,85,[3]const u8: '932' (source: '932')} day03.PointList{ .x = { 71, 72, 73 }, .y = { 85, 85, 85 }, .index = 0 }
+{76..78,85,[2]const u8: '41' (source: '41')} day03.PointList{ .x = { 76, 77 }, .y = { 85, 85 }, .index = 0 }
+{97..100,85,[3]const u8: '693' (source: '693')} day03.PointList{ .x = { 97, 98, 99 }, .y = { 85, 85, 85 }, .index = 0 }
+{132..135,85,[3]const u8: '434' (source: '434')} day03.PointList{ .x = { 132, 133, 134 }, .y = { 85, 85, 85 }, .index = 0 }
+{13..16,86,[3]const u8: '248' (source: '248')} day03.PointList{ .x = { 13, 14, 15 }, .y = { 86, 86, 86 }, .index = 0 }
+{27..30,86,[3]const u8: '395' (source: '395')} day03.PointList{ .x = { 27, 28, 29 }, .y = { 86, 86, 86 }, .index = 0 }
+{55..58,86,[3]const u8: '676' (source: '676')} day03.PointList{ .x = { 55, 56, 57 }, .y = { 86, 86, 86 }, .index = 0 }
+{91..94,86,[3]const u8: '835' (source: '835')} day03.PointList{ .x = { 91, 92, 93 }, .y = { 86, 86, 86 }, .index = 0 }
+{105..108,86,[3]const u8: '570' (source: '570')} day03.PointList{ .x = { 105, 106, 107 }, .y = { 86, 86, 86 }, .index = 0 }
+{109..112,86,[3]const u8: '199' (source: '199')} day03.PointList{ .x = { 109, 110, 111 }, .y = { 86, 86, 86 }, .index = 0 }
+{114..117,86,[3]const u8: '678' (source: '678')} day03.PointList{ .x = { 114, 115, 116 }, .y = { 86, 86, 86 }, .index = 0 }
+{0..3,87,[3]const u8: '780' (source: '780')} day03.PointList{ .x = { 0, 1, 2 }, .y = { 87, 87, 87 }, .index = 0 }
+{18..21,87,[3]const u8: '713' (source: '713')} day03.PointList{ .x = { 18, 19, 20 }, .y = { 87, 87, 87 }, .index = 0 }
+{37..40,87,[3]const u8: '952' (source: '952')} day03.PointList{ .x = { 37, 38, 39 }, .y = { 87, 87, 87 }, .index = 0 }
+{43..46,87,[3]const u8: '479' (source: '479')} day03.PointList{ .x = { 43, 44, 45 }, .y = { 87, 87, 87 }, .index = 0 }
+{49..52,87,[3]const u8: '379' (source: '379')} day03.PointList{ .x = { 49, 50, 51 }, .y = { 87, 87, 87 }, .index = 0 }
+{70..72,87,[2]const u8: '83' (source: '83')} day03.PointList{ .x = { 70, 71 }, .y = { 87, 87 }, .index = 0 }
+{73..76,87,[3]const u8: '554' (source: '554')} day03.PointList{ .x = { 73, 74, 75 }, .y = { 87, 87, 87 }, .index = 0 }
+{85..88,87,[3]const u8: '919' (source: '919')} day03.PointList{ .x = { 85, 86, 87 }, .y = { 87, 87, 87 }, .index = 0 }
+{95..98,87,[3]const u8: '486' (source: '486')} day03.PointList{ .x = { 95, 96, 97 }, .y = { 87, 87, 87 }, .index = 0 }
+{100..103,87,[3]const u8: '980' (source: '980')} day03.PointList{ .x = { 100, 101, 102 }, .y = { 87, 87, 87 }, .index = 0 }
+{118..121,87,[3]const u8: '984' (source: '984')} day03.PointList{ .x = { 118, 119, 120 }, .y = { 87, 87, 87 }, .index = 0 }
+{131..134,87,[3]const u8: '720' (source: '720')} day03.PointList{ .x = { 131, 132, 133 }, .y = { 87, 87, 87 }, .index = 0 }
+{10..12,88,[2]const u8: '66' (source: '66')} day03.PointList{ .x = { 10, 11 }, .y = { 88, 88 }, .index = 0 }
+{113..116,88,[3]const u8: '118' (source: '118')} day03.PointList{ .x = { 113, 114, 115 }, .y = { 88, 88, 88 }, .index = 0 }
+{15..18,89,[3]const u8: '694' (source: '694')} day03.PointList{ .x = { 15, 16, 17 }, .y = { 89, 89, 89 }, .index = 0 }
+{26..29,89,[3]const u8: '382' (source: '382')} day03.PointList{ .x = { 26, 27, 28 }, .y = { 89, 89, 89 }, .index = 0 }
+{33..36,89,[3]const u8: '793' (source: '793')} day03.PointList{ .x = { 33, 34, 35 }, .y = { 89, 89, 89 }, .index = 0 }
+{45..48,89,[3]const u8: '668' (source: '668')} day03.PointList{ .x = { 45, 46, 47 }, .y = { 89, 89, 89 }, .index = 0 }
+{49..51,89,[2]const u8: '92' (source: '92')} day03.PointList{ .x = { 49, 50 }, .y = { 89, 89 }, .index = 0 }
+{56..59,89,[3]const u8: '747' (source: '747')} day03.PointList{ .x = { 56, 57, 58 }, .y = { 89, 89, 89 }, .index = 0 }
+{66..68,89,[2]const u8: '49' (source: '49')} day03.PointList{ .x = { 66, 67 }, .y = { 89, 89 }, .index = 0 }
+{90..93,89,[3]const u8: '284' (source: '284')} day03.PointList{ .x = { 90, 91, 92 }, .y = { 89, 89, 89 }, .index = 0 }
+{96..99,89,[3]const u8: '462' (source: '462')} day03.PointList{ .x = { 96, 97, 98 }, .y = { 89, 89, 89 }, .index = 0 }
+{103..106,89,[3]const u8: '303' (source: '303')} day03.PointList{ .x = { 103, 104, 105 }, .y = { 89, 89, 89 }, .index = 0 }
+{119..122,89,[3]const u8: '518' (source: '518')} day03.PointList{ .x = { 119, 120, 121 }, .y = { 89, 89, 89 }, .index = 0 }
+{128..130,89,[2]const u8: '50' (source: '50')} day03.PointList{ .x = { 128, 129 }, .y = { 89, 89 }, .index = 0 }
+{135..138,89,[3]const u8: '798' (source: '798')} day03.PointList{ .x = { 135, 136, 137 }, .y = { 89, 89, 89 }, .index = 0 }
+{9..12,90,[3]const u8: '642' (source: '642')} day03.PointList{ .x = { 9, 10, 11 }, .y = { 90, 90, 90 }, .index = 0 }
+{61..63,90,[2]const u8: '93' (source: '93')} day03.PointList{ .x = { 61, 62 }, .y = { 90, 90 }, .index = 0 }
+{71..74,90,[3]const u8: '885' (source: '885')} day03.PointList{ .x = { 71, 72, 73 }, .y = { 90, 90, 90 }, .index = 0 }
+{77..80,90,[3]const u8: '785' (source: '785')} day03.PointList{ .x = { 77, 78, 79 }, .y = { 90, 90, 90 }, .index = 0 }
+{82..85,90,[3]const u8: '780' (source: '780')} day03.PointList{ .x = { 82, 83, 84 }, .y = { 90, 90, 90 }, .index = 0 }
+{113..116,90,[3]const u8: '663' (source: '663')} day03.PointList{ .x = { 113, 114, 115 }, .y = { 90, 90, 90 }, .index = 0 }
+{0..3,91,[3]const u8: '533' (source: '533')} day03.PointList{ .x = { 0, 1, 2 }, .y = { 91, 91, 91 }, .index = 0 }
+{14..17,91,[3]const u8: '996' (source: '996')} day03.PointList{ .x = { 14, 15, 16 }, .y = { 91, 91, 91 }, .index = 0 }
+{26..29,91,[3]const u8: '352' (source: '352')} day03.PointList{ .x = { 26, 27, 28 }, .y = { 91, 91, 91 }, .index = 0 }
+{54..57,91,[3]const u8: '200' (source: '200')} day03.PointList{ .x = { 54, 55, 56 }, .y = { 91, 91, 91 }, .index = 0 }
+{86..89,91,[3]const u8: '142' (source: '142')} day03.PointList{ .x = { 86, 87, 88 }, .y = { 91, 91, 91 }, .index = 0 }
+{93..96,91,[3]const u8: '408' (source: '408')} day03.PointList{ .x = { 93, 94, 95 }, .y = { 91, 91, 91 }, .index = 0 }
+{105..108,91,[3]const u8: '634' (source: '634')} day03.PointList{ .x = { 105, 106, 107 }, .y = { 91, 91, 91 }, .index = 0 }
+{134..137,91,[3]const u8: '183' (source: '183')} day03.PointList{ .x = { 134, 135, 136 }, .y = { 91, 91, 91 }, .index = 0 }
+{20..23,92,[3]const u8: '970' (source: '970')} day03.PointList{ .x = { 20, 21, 22 }, .y = { 92, 92, 92 }, .index = 0 }
+{38..41,92,[3]const u8: '902' (source: '902')} day03.PointList{ .x = { 38, 39, 40 }, .y = { 92, 92, 92 }, .index = 0 }
+{67..70,92,[3]const u8: '943' (source: '943')} day03.PointList{ .x = { 67, 68, 69 }, .y = { 92, 92, 92 }, .index = 0 }
+{71..74,92,[3]const u8: '649' (source: '649')} day03.PointList{ .x = { 71, 72, 73 }, .y = { 92, 92, 92 }, .index = 0 }
+{97..100,92,[3]const u8: '909' (source: '909')} day03.PointList{ .x = { 97, 98, 99 }, .y = { 92, 92, 92 }, .index = 0 }
+{109..112,92,[3]const u8: '619' (source: '619')} day03.PointList{ .x = { 109, 110, 111 }, .y = { 92, 92, 92 }, .index = 0 }
+{24..27,93,[3]const u8: '640' (source: '640')} day03.PointList{ .x = { 24, 25, 26 }, .y = { 93, 93, 93 }, .index = 0 }
+{59..62,93,[3]const u8: '446' (source: '446')} day03.PointList{ .x = { 59, 60, 61 }, .y = { 93, 93, 93 }, .index = 0 }
+{76..79,93,[3]const u8: '934' (source: '934')} day03.PointList{ .x = { 76, 77, 78 }, .y = { 93, 93, 93 }, .index = 0 }
+{89..92,93,[3]const u8: '313' (source: '313')} day03.PointList{ .x = { 89, 90, 91 }, .y = { 93, 93, 93 }, .index = 0 }
+{118..121,93,[3]const u8: '509' (source: '509')} day03.PointList{ .x = { 118, 119, 120 }, .y = { 93, 93, 93 }, .index = 0 }
+{124..127,93,[3]const u8: '473' (source: '473')} day03.PointList{ .x = { 124, 125, 126 }, .y = { 93, 93, 93 }, .index = 0 }
+{129..132,93,[3]const u8: '901' (source: '901')} day03.PointList{ .x = { 129, 130, 131 }, .y = { 93, 93, 93 }, .index = 0 }
+{136..139,93,[3]const u8: '132' (source: '132')} day03.PointList{ .x = { 136, 137, 138 }, .y = { 93, 93, 93 }, .index = 0 }
+{13..16,94,[3]const u8: '415' (source: '415')} day03.PointList{ .x = { 13, 14, 15 }, .y = { 94, 94, 94 }, .index = 0 }
+{18..21,94,[3]const u8: '805' (source: '805')} day03.PointList{ .x = { 18, 19, 20 }, .y = { 94, 94, 94 }, .index = 0 }
+{29..32,94,[3]const u8: '786' (source: '786')} day03.PointList{ .x = { 29, 30, 31 }, .y = { 94, 94, 94 }, .index = 0 }
+{37..39,94,[2]const u8: '12' (source: '12')} day03.PointList{ .x = { 37, 38 }, .y = { 94, 94 }, .index = 0 }
+{54..57,94,[3]const u8: '863' (source: '863')} day03.PointList{ .x = { 54, 55, 56 }, .y = { 94, 94, 94 }, .index = 0 }
+{72..75,94,[3]const u8: '674' (source: '674')} day03.PointList{ .x = { 72, 73, 74 }, .y = { 94, 94, 94 }, .index = 0 }
+{83..86,94,[3]const u8: '296' (source: '296')} day03.PointList{ .x = { 83, 84, 85 }, .y = { 94, 94, 94 }, .index = 0 }
+{95..98,94,[3]const u8: '474' (source: '474')} day03.PointList{ .x = { 95, 96, 97 }, .y = { 94, 94, 94 }, .index = 0 }
+{104..107,94,[3]const u8: '281' (source: '281')} day03.PointList{ .x = { 104, 105, 106 }, .y = { 94, 94, 94 }, .index = 0 }
+{110..113,94,[3]const u8: '326' (source: '326')} day03.PointList{ .x = { 110, 111, 112 }, .y = { 94, 94, 94 }, .index = 0 }
+{8..11,95,[3]const u8: '909' (source: '909')} day03.PointList{ .x = { 8, 9, 10 }, .y = { 95, 95, 95 }, .index = 0 }
+{22..25,95,[3]const u8: '136' (source: '136')} day03.PointList{ .x = { 22, 23, 24 }, .y = { 95, 95, 95 }, .index = 0 }
+{42..45,95,[3]const u8: '645' (source: '645')} day03.PointList{ .x = { 42, 43, 44 }, .y = { 95, 95, 95 }, .index = 0 }
+{61..64,95,[3]const u8: '961' (source: '961')} day03.PointList{ .x = { 61, 62, 63 }, .y = { 95, 95, 95 }, .index = 0 }
+{100..103,95,[3]const u8: '250' (source: '250')} day03.PointList{ .x = { 100, 101, 102 }, .y = { 95, 95, 95 }, .index = 0 }
+{13..16,96,[3]const u8: '589' (source: '589')} day03.PointList{ .x = { 13, 14, 15 }, .y = { 96, 96, 96 }, .index = 0 }
+{36..39,96,[3]const u8: '253' (source: '253')} day03.PointList{ .x = { 36, 37, 38 }, .y = { 96, 96, 96 }, .index = 0 }
+{47..50,96,[3]const u8: '166' (source: '166')} day03.PointList{ .x = { 47, 48, 49 }, .y = { 96, 96, 96 }, .index = 0 }
+{68..70,96,[2]const u8: '96' (source: '96')} day03.PointList{ .x = { 68, 69 }, .y = { 96, 96 }, .index = 0 }
+{115..118,96,[3]const u8: '678' (source: '678')} day03.PointList{ .x = { 115, 116, 117 }, .y = { 96, 96, 96 }, .index = 0 }
+{132..135,96,[3]const u8: '466' (source: '466')} day03.PointList{ .x = { 132, 133, 134 }, .y = { 96, 96, 96 }, .index = 0 }
+{1..4,97,[3]const u8: '759' (source: '759')} day03.PointList{ .x = { 1, 2, 3 }, .y = { 97, 97, 97 }, .index = 0 }
+{29..32,97,[3]const u8: '658' (source: '658')} day03.PointList{ .x = { 29, 30, 31 }, .y = { 97, 97, 97 }, .index = 0 }
+{62..65,97,[3]const u8: '105' (source: '105')} day03.PointList{ .x = { 62, 63, 64 }, .y = { 97, 97, 97 }, .index = 0 }
+{89..92,97,[3]const u8: '428' (source: '428')} day03.PointList{ .x = { 89, 90, 91 }, .y = { 97, 97, 97 }, .index = 0 }
+{125..127,97,[2]const u8: '73' (source: '73')} day03.PointList{ .x = { 125, 126 }, .y = { 97, 97 }, .index = 0 }
+{35..38,98,[3]const u8: '168' (source: '168')} day03.PointList{ .x = { 35, 36, 37 }, .y = { 98, 98, 98 }, .index = 0 }
+{39..42,98,[3]const u8: '592' (source: '592')} day03.PointList{ .x = { 39, 40, 41 }, .y = { 98, 98, 98 }, .index = 0 }
+{44..47,98,[3]const u8: '536' (source: '536')} day03.PointList{ .x = { 44, 45, 46 }, .y = { 98, 98, 98 }, .index = 0 }
+{70..73,98,[3]const u8: '671' (source: '671')} day03.PointList{ .x = { 70, 71, 72 }, .y = { 98, 98, 98 }, .index = 0 }
+{110..112,98,[2]const u8: '74' (source: '74')} day03.PointList{ .x = { 110, 111 }, .y = { 98, 98 }, .index = 0 }
+{120..123,98,[3]const u8: '564' (source: '564')} day03.PointList{ .x = { 120, 121, 122 }, .y = { 98, 98, 98 }, .index = 0 }
+{1..4,99,[3]const u8: '304' (source: '304')} day03.PointList{ .x = { 1, 2, 3 }, .y = { 99, 99, 99 }, .index = 0 }
+{9..12,99,[3]const u8: '728' (source: '728')} day03.PointList{ .x = { 9, 10, 11 }, .y = { 99, 99, 99 }, .index = 0 }
+{14..17,99,[3]const u8: '764' (source: '764')} day03.PointList{ .x = { 14, 15, 16 }, .y = { 99, 99, 99 }, .index = 0 }
+{49..52,99,[3]const u8: '804' (source: '804')} day03.PointList{ .x = { 49, 50, 51 }, .y = { 99, 99, 99 }, .index = 0 }
+{53..56,99,[3]const u8: '575' (source: '575')} day03.PointList{ .x = { 53, 54, 55 }, .y = { 99, 99, 99 }, .index = 0 }
+{60..63,99,[3]const u8: '266' (source: '266')} day03.PointList{ .x = { 60, 61, 62 }, .y = { 99, 99, 99 }, .index = 0 }
+{93..95,99,[2]const u8: '94' (source: '94')} day03.PointList{ .x = { 93, 94 }, .y = { 99, 99 }, .index = 0 }
+{101..103,99,[2]const u8: '27' (source: '27')} day03.PointList{ .x = { 101, 102 }, .y = { 99, 99 }, .index = 0 }
+{104..107,99,[3]const u8: '316' (source: '316')} day03.PointList{ .x = { 104, 105, 106 }, .y = { 99, 99, 99 }, .index = 0 }
+{126..129,99,[3]const u8: '209' (source: '209')} day03.PointList{ .x = { 126, 127, 128 }, .y = { 99, 99, 99 }, .index = 0 }
+{132..135,99,[3]const u8: '485' (source: '485')} day03.PointList{ .x = { 132, 133, 134 }, .y = { 99, 99, 99 }, .index = 0 }
+{5..8,100,[3]const u8: '997' (source: '997')} day03.PointList{ .x = { 5, 6, 7 }, .y = { 100, 100, 100 }, .index = 0 }
+{30..33,100,[3]const u8: '792' (source: '792')} day03.PointList{ .x = { 30, 31, 32 }, .y = { 100, 100, 100 }, .index = 0 }
+{36..39,100,[3]const u8: '855' (source: '855')} day03.PointList{ .x = { 36, 37, 38 }, .y = { 100, 100, 100 }, .index = 0 }
+{70..73,100,[3]const u8: '496' (source: '496')} day03.PointList{ .x = { 70, 71, 72 }, .y = { 100, 100, 100 }, .index = 0 }
+{86..89,100,[3]const u8: '683' (source: '683')} day03.PointList{ .x = { 86, 87, 88 }, .y = { 100, 100, 100 }, .index = 0 }
+{96..99,100,[3]const u8: '225' (source: '225')} day03.PointList{ .x = { 96, 97, 98 }, .y = { 100, 100, 100 }, .index = 0 }
+{119..122,100,[3]const u8: '474' (source: '474')} day03.PointList{ .x = { 119, 120, 121 }, .y = { 100, 100, 100 }, .index = 0 }
+{136..139,100,[3]const u8: '395' (source: '395')} day03.PointList{ .x = { 136, 137, 138 }, .y = { 100, 100, 100 }, .index = 0 }
+{12..15,101,[3]const u8: '573' (source: '573')} day03.PointList{ .x = { 12, 13, 14 }, .y = { 101, 101, 101 }, .index = 0 }
+{19..22,101,[3]const u8: '206' (source: '206')} day03.PointList{ .x = { 19, 20, 21 }, .y = { 101, 101, 101 }, .index = 0 }
+{23..26,101,[3]const u8: '477' (source: '477')} day03.PointList{ .x = { 23, 24, 25 }, .y = { 101, 101, 101 }, .index = 0 }
+{59..62,101,[3]const u8: '702' (source: '702')} day03.PointList{ .x = { 59, 60, 61 }, .y = { 101, 101, 101 }, .index = 0 }
+{82..85,101,[3]const u8: '298' (source: '298')} day03.PointList{ .x = { 82, 83, 84 }, .y = { 101, 101, 101 }, .index = 0 }
+{101..104,101,[3]const u8: '100' (source: '100')} day03.PointList{ .x = { 101, 102, 103 }, .y = { 101, 101, 101 }, .index = 0 }
+{124..127,101,[3]const u8: '714' (source: '714')} day03.PointList{ .x = { 124, 125, 126 }, .y = { 101, 101, 101 }, .index = 0 }
+{0..3,102,[3]const u8: '448' (source: '448')} day03.PointList{ .x = { 0, 1, 2 }, .y = { 102, 102, 102 }, .index = 0 }
+{37..40,102,[3]const u8: '769' (source: '769')} day03.PointList{ .x = { 37, 38, 39 }, .y = { 102, 102, 102 }, .index = 0 }
+{43..45,102,[2]const u8: '27' (source: '27')} day03.PointList{ .x = { 43, 44 }, .y = { 102, 102 }, .index = 0 }
+{53..56,102,[3]const u8: '691' (source: '691')} day03.PointList{ .x = { 53, 54, 55 }, .y = { 102, 102, 102 }, .index = 0 }
+{66..69,102,[3]const u8: '178' (source: '178')} day03.PointList{ .x = { 66, 67, 68 }, .y = { 102, 102, 102 }, .index = 0 }
+{73..76,102,[3]const u8: '675' (source: '675')} day03.PointList{ .x = { 73, 74, 75 }, .y = { 102, 102, 102 }, .index = 0 }
+{91..94,102,[3]const u8: '980' (source: '980')} day03.PointList{ .x = { 91, 92, 93 }, .y = { 102, 102, 102 }, .index = 0 }
+{95..97,102,[2]const u8: '28' (source: '28')} day03.PointList{ .x = { 95, 96 }, .y = { 102, 102 }, .index = 0 }
+{129..132,102,[3]const u8: '201' (source: '201')} day03.PointList{ .x = { 129, 130, 131 }, .y = { 102, 102, 102 }, .index = 0 }
+{133..136,102,[3]const u8: '545' (source: '545')} day03.PointList{ .x = { 133, 134, 135 }, .y = { 102, 102, 102 }, .index = 0 }
+{12..15,103,[3]const u8: '223' (source: '223')} day03.PointList{ .x = { 12, 13, 14 }, .y = { 103, 103, 103 }, .index = 0 }
+{18..21,103,[3]const u8: '561' (source: '561')} day03.PointList{ .x = { 18, 19, 20 }, .y = { 103, 103, 103 }, .index = 0 }
+{31..34,103,[3]const u8: '261' (source: '261')} day03.PointList{ .x = { 31, 32, 33 }, .y = { 103, 103, 103 }, .index = 0 }
+{82..85,103,[3]const u8: '610' (source: '610')} day03.PointList{ .x = { 82, 83, 84 }, .y = { 103, 103, 103 }, .index = 0 }
+{86..89,103,[3]const u8: '250' (source: '250')} day03.PointList{ .x = { 86, 87, 88 }, .y = { 103, 103, 103 }, .index = 0 }
+{109..112,103,[3]const u8: '496' (source: '496')} day03.PointList{ .x = { 109, 110, 111 }, .y = { 103, 103, 103 }, .index = 0 }
+{118..121,103,[3]const u8: '408' (source: '408')} day03.PointList{ .x = { 118, 119, 120 }, .y = { 103, 103, 103 }, .index = 0 }
+{37..40,104,[3]const u8: '195' (source: '195')} day03.PointList{ .x = { 37, 38, 39 }, .y = { 104, 104, 104 }, .index = 0 }
+{50..53,104,[3]const u8: '303' (source: '303')} day03.PointList{ .x = { 50, 51, 52 }, .y = { 104, 104, 104 }, .index = 0 }
+{69..72,104,[3]const u8: '141' (source: '141')} day03.PointList{ .x = { 69, 70, 71 }, .y = { 104, 104, 104 }, .index = 0 }
+{74..77,104,[3]const u8: '865' (source: '865')} day03.PointList{ .x = { 74, 75, 76 }, .y = { 104, 104, 104 }, .index = 0 }
+{91..94,104,[3]const u8: '629' (source: '629')} day03.PointList{ .x = { 91, 92, 93 }, .y = { 104, 104, 104 }, .index = 0 }
+{101..104,104,[3]const u8: '659' (source: '659')} day03.PointList{ .x = { 101, 102, 103 }, .y = { 104, 104, 104 }, .index = 0 }
+{131..134,104,[3]const u8: '958' (source: '958')} day03.PointList{ .x = { 131, 132, 133 }, .y = { 104, 104, 104 }, .index = 0 }
+{11..14,105,[3]const u8: '407' (source: '407')} day03.PointList{ .x = { 11, 12, 13 }, .y = { 105, 105, 105 }, .index = 0 }
+{22..24,105,[2]const u8: '92' (source: '92')} day03.PointList{ .x = { 22, 23 }, .y = { 105, 105 }, .index = 0 }
+{27..29,105,[2]const u8: '22' (source: '22')} day03.PointList{ .x = { 27, 28 }, .y = { 105, 105 }, .index = 0 }
+{45..48,105,[3]const u8: '493' (source: '493')} day03.PointList{ .x = { 45, 46, 47 }, .y = { 105, 105, 105 }, .index = 0 }
+{54..57,105,[3]const u8: '605' (source: '605')} day03.PointList{ .x = { 54, 55, 56 }, .y = { 105, 105, 105 }, .index = 0 }
+{86..89,105,[3]const u8: '477' (source: '477')} day03.PointList{ .x = { 86, 87, 88 }, .y = { 105, 105, 105 }, .index = 0 }
+{97..100,105,[3]const u8: '160' (source: '160')} day03.PointList{ .x = { 97, 98, 99 }, .y = { 105, 105, 105 }, .index = 0 }
+{119..122,105,[3]const u8: '743' (source: '743')} day03.PointList{ .x = { 119, 120, 121 }, .y = { 105, 105, 105 }, .index = 0 }
+{127..130,105,[3]const u8: '163' (source: '163')} day03.PointList{ .x = { 127, 128, 129 }, .y = { 105, 105, 105 }, .index = 0 }
+{70..73,106,[3]const u8: '245' (source: '245')} day03.PointList{ .x = { 70, 71, 72 }, .y = { 106, 106, 106 }, .index = 0 }
+{93..96,106,[3]const u8: '731' (source: '731')} day03.PointList{ .x = { 93, 94, 95 }, .y = { 106, 106, 106 }, .index = 0 }
+{106..108,106,[2]const u8: '69' (source: '69')} day03.PointList{ .x = { 106, 107 }, .y = { 106, 106 }, .index = 0 }
+{113..116,106,[3]const u8: '213' (source: '213')} day03.PointList{ .x = { 113, 114, 115 }, .y = { 106, 106, 106 }, .index = 0 }
+{28..31,107,[3]const u8: '903' (source: '903')} day03.PointList{ .x = { 28, 29, 30 }, .y = { 107, 107, 107 }, .index = 0 }
+{32..34,107,[2]const u8: '75' (source: '75')} day03.PointList{ .x = { 32, 33 }, .y = { 107, 107 }, .index = 0 }
+{44..46,107,[2]const u8: '64' (source: '64')} day03.PointList{ .x = { 44, 45 }, .y = { 107, 107 }, .index = 0 }
+{52..55,107,[3]const u8: '945' (source: '945')} day03.PointList{ .x = { 52, 53, 54 }, .y = { 107, 107, 107 }, .index = 0 }
+{58..61,107,[3]const u8: '221' (source: '221')} day03.PointList{ .x = { 58, 59, 60 }, .y = { 107, 107, 107 }, .index = 0 }
+{78..81,107,[3]const u8: '740' (source: '740')} day03.PointList{ .x = { 78, 79, 80 }, .y = { 107, 107, 107 }, .index = 0 }
+{89..92,107,[3]const u8: '739' (source: '739')} day03.PointList{ .x = { 89, 90, 91 }, .y = { 107, 107, 107 }, .index = 0 }
+{119..122,107,[3]const u8: '562' (source: '562')} day03.PointList{ .x = { 119, 120, 121 }, .y = { 107, 107, 107 }, .index = 0 }
+{131..133,107,[2]const u8: '53' (source: '53')} day03.PointList{ .x = { 131, 132 }, .y = { 107, 107 }, .index = 0 }
+{136..137,107,[1]const u8: '4' (source: '4')} day03.PointList{ .x = { 136 }, .y = { 107 }, .index = 0 }
+{12..15,108,[3]const u8: '145' (source: '145')} day03.PointList{ .x = { 12, 13, 14 }, .y = { 108, 108, 108 }, .index = 0 }
+{20..23,108,[3]const u8: '580' (source: '580')} day03.PointList{ .x = { 20, 21, 22 }, .y = { 108, 108, 108 }, .index = 0 }
+{63..66,108,[3]const u8: '425' (source: '425')} day03.PointList{ .x = { 63, 64, 65 }, .y = { 108, 108, 108 }, .index = 0 }
+{74..77,108,[3]const u8: '900' (source: '900')} day03.PointList{ .x = { 74, 75, 76 }, .y = { 108, 108, 108 }, .index = 0 }
+{124..127,108,[3]const u8: '536' (source: '536')} day03.PointList{ .x = { 124, 125, 126 }, .y = { 108, 108, 108 }, .index = 0 }
+{37..39,109,[2]const u8: '91' (source: '91')} day03.PointList{ .x = { 37, 38 }, .y = { 109, 109 }, .index = 0 }
+{43..46,109,[3]const u8: '185' (source: '185')} day03.PointList{ .x = { 43, 44, 45 }, .y = { 109, 109, 109 }, .index = 0 }
+{87..89,109,[2]const u8: '85' (source: '85')} day03.PointList{ .x = { 87, 88 }, .y = { 109, 109 }, .index = 0 }
+{106..109,109,[3]const u8: '414' (source: '414')} day03.PointList{ .x = { 106, 107, 108 }, .y = { 109, 109, 109 }, .index = 0 }
+{112..115,109,[3]const u8: '890' (source: '890')} day03.PointList{ .x = { 112, 113, 114 }, .y = { 109, 109, 109 }, .index = 0 }
+{116..119,109,[3]const u8: '204' (source: '204')} day03.PointList{ .x = { 116, 117, 118 }, .y = { 109, 109, 109 }, .index = 0 }
+{4..7,110,[3]const u8: '772' (source: '772')} day03.PointList{ .x = { 4, 5, 6 }, .y = { 110, 110, 110 }, .index = 0 }
+{19..22,110,[3]const u8: '422' (source: '422')} day03.PointList{ .x = { 19, 20, 21 }, .y = { 110, 110, 110 }, .index = 0 }
+{26..29,110,[3]const u8: '351' (source: '351')} day03.PointList{ .x = { 26, 27, 28 }, .y = { 110, 110, 110 }, .index = 0 }
+{32..35,110,[3]const u8: '218' (source: '218')} day03.PointList{ .x = { 32, 33, 34 }, .y = { 110, 110, 110 }, .index = 0 }
+{53..56,110,[3]const u8: '584' (source: '584')} day03.PointList{ .x = { 53, 54, 55 }, .y = { 110, 110, 110 }, .index = 0 }
+{72..75,110,[3]const u8: '263' (source: '263')} day03.PointList{ .x = { 72, 73, 74 }, .y = { 110, 110, 110 }, .index = 0 }
+{78..81,110,[3]const u8: '849' (source: '849')} day03.PointList{ .x = { 78, 79, 80 }, .y = { 110, 110, 110 }, .index = 0 }
+{14..17,111,[3]const u8: '897' (source: '897')} day03.PointList{ .x = { 14, 15, 16 }, .y = { 111, 111, 111 }, .index = 0 }
+{23..25,111,[2]const u8: '28' (source: '28')} day03.PointList{ .x = { 23, 24 }, .y = { 111, 111 }, .index = 0 }
+{47..50,111,[3]const u8: '300' (source: '300')} day03.PointList{ .x = { 47, 48, 49 }, .y = { 111, 111, 111 }, .index = 0 }
+{84..87,111,[3]const u8: '544' (source: '544')} day03.PointList{ .x = { 84, 85, 86 }, .y = { 111, 111, 111 }, .index = 0 }
+{93..96,111,[3]const u8: '974' (source: '974')} day03.PointList{ .x = { 93, 94, 95 }, .y = { 111, 111, 111 }, .index = 0 }
+{104..107,111,[3]const u8: '214' (source: '214')} day03.PointList{ .x = { 104, 105, 106 }, .y = { 111, 111, 111 }, .index = 0 }
+{110..112,111,[2]const u8: '55' (source: '55')} day03.PointList{ .x = { 110, 111 }, .y = { 111, 111 }, .index = 0 }
+{119..122,111,[3]const u8: '347' (source: '347')} day03.PointList{ .x = { 119, 120, 121 }, .y = { 111, 111, 111 }, .index = 0 }
+{135..138,111,[3]const u8: '914' (source: '914')} day03.PointList{ .x = { 135, 136, 137 }, .y = { 111, 111, 111 }, .index = 0 }
+{0..3,112,[3]const u8: '901' (source: '901')} day03.PointList{ .x = { 0, 1, 2 }, .y = { 112, 112, 112 }, .index = 0 }
+{18..20,112,[2]const u8: '67' (source: '67')} day03.PointList{ .x = { 18, 19 }, .y = { 112, 112 }, .index = 0 }
+{26..29,112,[3]const u8: '840' (source: '840')} day03.PointList{ .x = { 26, 27, 28 }, .y = { 112, 112, 112 }, .index = 0 }
+{32..35,112,[3]const u8: '343' (source: '343')} day03.PointList{ .x = { 32, 33, 34 }, .y = { 112, 112, 112 }, .index = 0 }
+{76..79,112,[3]const u8: '447' (source: '447')} day03.PointList{ .x = { 76, 77, 78 }, .y = { 112, 112, 112 }, .index = 0 }
+{99..102,112,[3]const u8: '400' (source: '400')} day03.PointList{ .x = { 99, 100, 101 }, .y = { 112, 112, 112 }, .index = 0 }
+{7..10,113,[3]const u8: '684' (source: '684')} day03.PointList{ .x = { 7, 8, 9 }, .y = { 113, 113, 113 }, .index = 0 }
+{12..15,113,[3]const u8: '498' (source: '498')} day03.PointList{ .x = { 12, 13, 14 }, .y = { 113, 113, 113 }, .index = 0 }
+{47..50,113,[3]const u8: '544' (source: '544')} day03.PointList{ .x = { 47, 48, 49 }, .y = { 113, 113, 113 }, .index = 0 }
+{53..56,113,[3]const u8: '347' (source: '347')} day03.PointList{ .x = { 53, 54, 55 }, .y = { 113, 113, 113 }, .index = 0 }
+{67..70,113,[3]const u8: '493' (source: '493')} day03.PointList{ .x = { 67, 68, 69 }, .y = { 113, 113, 113 }, .index = 0 }
+{83..86,113,[3]const u8: '612' (source: '612')} day03.PointList{ .x = { 83, 84, 85 }, .y = { 113, 113, 113 }, .index = 0 }
+{96..98,113,[2]const u8: '59' (source: '59')} day03.PointList{ .x = { 96, 97 }, .y = { 113, 113 }, .index = 0 }
+{107..110,113,[3]const u8: '741' (source: '741')} day03.PointList{ .x = { 107, 108, 109 }, .y = { 113, 113, 113 }, .index = 0 }
+{120..123,113,[3]const u8: '593' (source: '593')} day03.PointList{ .x = { 120, 121, 122 }, .y = { 113, 113, 113 }, .index = 0 }
+{19..22,114,[3]const u8: '369' (source: '369')} day03.PointList{ .x = { 19, 20, 21 }, .y = { 114, 114, 114 }, .index = 0 }
+{23..26,114,[3]const u8: '577' (source: '577')} day03.PointList{ .x = { 23, 24, 25 }, .y = { 114, 114, 114 }, .index = 0 }
+{34..37,114,[3]const u8: '690' (source: '690')} day03.PointList{ .x = { 34, 35, 36 }, .y = { 114, 114, 114 }, .index = 0 }
+{40..43,114,[3]const u8: '770' (source: '770')} day03.PointList{ .x = { 40, 41, 42 }, .y = { 114, 114, 114 }, .index = 0 }
+{57..60,114,[3]const u8: '983' (source: '983')} day03.PointList{ .x = { 57, 58, 59 }, .y = { 114, 114, 114 }, .index = 0 }
+{102..105,114,[3]const u8: '437' (source: '437')} day03.PointList{ .x = { 102, 103, 104 }, .y = { 114, 114, 114 }, .index = 0 }
+{116..119,114,[3]const u8: '258' (source: '258')} day03.PointList{ .x = { 116, 117, 118 }, .y = { 114, 114, 114 }, .index = 0 }
+{136..139,114,[3]const u8: '275' (source: '275')} day03.PointList{ .x = { 136, 137, 138 }, .y = { 114, 114, 114 }, .index = 0 }
+{8..11,115,[3]const u8: '603' (source: '603')} day03.PointList{ .x = { 8, 9, 10 }, .y = { 115, 115, 115 }, .index = 0 }
+{44..47,115,[3]const u8: '913' (source: '913')} day03.PointList{ .x = { 44, 45, 46 }, .y = { 115, 115, 115 }, .index = 0 }
+{51..54,115,[3]const u8: '609' (source: '609')} day03.PointList{ .x = { 51, 52, 53 }, .y = { 115, 115, 115 }, .index = 0 }
+{71..74,115,[3]const u8: '823' (source: '823')} day03.PointList{ .x = { 71, 72, 73 }, .y = { 115, 115, 115 }, .index = 0 }
+{98..100,115,[2]const u8: '62' (source: '62')} day03.PointList{ .x = { 98, 99 }, .y = { 115, 115 }, .index = 0 }
+{106..108,115,[2]const u8: '83' (source: '83')} day03.PointList{ .x = { 106, 107 }, .y = { 115, 115 }, .index = 0 }
+{4..7,116,[3]const u8: '538' (source: '538')} day03.PointList{ .x = { 4, 5, 6 }, .y = { 116, 116, 116 }, .index = 0 }
+{12..15,116,[3]const u8: '356' (source: '356')} day03.PointList{ .x = { 12, 13, 14 }, .y = { 116, 116, 116 }, .index = 0 }
+{20..23,116,[3]const u8: '117' (source: '117')} day03.PointList{ .x = { 20, 21, 22 }, .y = { 116, 116, 116 }, .index = 0 }
+{39..42,116,[3]const u8: '556' (source: '556')} day03.PointList{ .x = { 39, 40, 41 }, .y = { 116, 116, 116 }, .index = 0 }
+{89..92,116,[3]const u8: '920' (source: '920')} day03.PointList{ .x = { 89, 90, 91 }, .y = { 116, 116, 116 }, .index = 0 }
+{115..118,116,[3]const u8: '746' (source: '746')} day03.PointList{ .x = { 115, 116, 117 }, .y = { 116, 116, 116 }, .index = 0 }
+{16..19,117,[3]const u8: '483' (source: '483')} day03.PointList{ .x = { 16, 17, 18 }, .y = { 117, 117, 117 }, .index = 0 }
+{26..29,117,[3]const u8: '197' (source: '197')} day03.PointList{ .x = { 26, 27, 28 }, .y = { 117, 117, 117 }, .index = 0 }
+{69..72,117,[3]const u8: '231' (source: '231')} day03.PointList{ .x = { 69, 70, 71 }, .y = { 117, 117, 117 }, .index = 0 }
+{75..78,117,[3]const u8: '210' (source: '210')} day03.PointList{ .x = { 75, 76, 77 }, .y = { 117, 117, 117 }, .index = 0 }
+{84..86,117,[2]const u8: '92' (source: '92')} day03.PointList{ .x = { 84, 85 }, .y = { 117, 117 }, .index = 0 }
+{96..99,117,[3]const u8: '982' (source: '982')} day03.PointList{ .x = { 96, 97, 98 }, .y = { 117, 117, 117 }, .index = 0 }
+{108..111,117,[3]const u8: '199' (source: '199')} day03.PointList{ .x = { 108, 109, 110 }, .y = { 117, 117, 117 }, .index = 0 }
+{124..127,117,[3]const u8: '848' (source: '848')} day03.PointList{ .x = { 124, 125, 126 }, .y = { 117, 117, 117 }, .index = 0 }
+{3..6,118,[3]const u8: '370' (source: '370')} day03.PointList{ .x = { 3, 4, 5 }, .y = { 118, 118, 118 }, .index = 0 }
+{8..11,118,[3]const u8: '413' (source: '413')} day03.PointList{ .x = { 8, 9, 10 }, .y = { 118, 118, 118 }, .index = 0 }
+{47..50,118,[3]const u8: '556' (source: '556')} day03.PointList{ .x = { 47, 48, 49 }, .y = { 118, 118, 118 }, .index = 0 }
+{58..61,118,[3]const u8: '325' (source: '325')} day03.PointList{ .x = { 58, 59, 60 }, .y = { 118, 118, 118 }, .index = 0 }
+{87..90,118,[3]const u8: '182' (source: '182')} day03.PointList{ .x = { 87, 88, 89 }, .y = { 118, 118, 118 }, .index = 0 }
+{100..103,118,[3]const u8: '933' (source: '933')} day03.PointList{ .x = { 100, 101, 102 }, .y = { 118, 118, 118 }, .index = 0 }
+{129..132,118,[3]const u8: '829' (source: '829')} day03.PointList{ .x = { 129, 130, 131 }, .y = { 118, 118, 118 }, .index = 0 }
+{133..136,118,[3]const u8: '402' (source: '402')} day03.PointList{ .x = { 133, 134, 135 }, .y = { 118, 118, 118 }, .index = 0 }
+{21..24,119,[3]const u8: '524' (source: '524')} day03.PointList{ .x = { 21, 22, 23 }, .y = { 119, 119, 119 }, .index = 0 }
+{25..28,119,[3]const u8: '131' (source: '131')} day03.PointList{ .x = { 25, 26, 27 }, .y = { 119, 119, 119 }, .index = 0 }
+{30..33,119,[3]const u8: '134' (source: '134')} day03.PointList{ .x = { 30, 31, 32 }, .y = { 119, 119, 119 }, .index = 0 }
+{35..38,119,[3]const u8: '163' (source: '163')} day03.PointList{ .x = { 35, 36, 37 }, .y = { 119, 119, 119 }, .index = 0 }
+{43..46,119,[3]const u8: '185' (source: '185')} day03.PointList{ .x = { 43, 44, 45 }, .y = { 119, 119, 119 }, .index = 0 }
+{93..96,119,[3]const u8: '756' (source: '756')} day03.PointList{ .x = { 93, 94, 95 }, .y = { 119, 119, 119 }, .index = 0 }
+{109..112,119,[3]const u8: '774' (source: '774')} day03.PointList{ .x = { 109, 110, 111 }, .y = { 119, 119, 119 }, .index = 0 }
+{118..121,119,[3]const u8: '822' (source: '822')} day03.PointList{ .x = { 118, 119, 120 }, .y = { 119, 119, 119 }, .index = 0 }
+{4..7,120,[3]const u8: '340' (source: '340')} day03.PointList{ .x = { 4, 5, 6 }, .y = { 120, 120, 120 }, .index = 0 }
+{11..14,120,[3]const u8: '373' (source: '373')} day03.PointList{ .x = { 11, 12, 13 }, .y = { 120, 120, 120 }, .index = 0 }
+{50..53,120,[3]const u8: '649' (source: '649')} day03.PointList{ .x = { 50, 51, 52 }, .y = { 120, 120, 120 }, .index = 0 }
+{54..56,120,[2]const u8: '20' (source: '20')} day03.PointList{ .x = { 54, 55 }, .y = { 120, 120 }, .index = 0 }
+{60..63,120,[3]const u8: '289' (source: '289')} day03.PointList{ .x = { 60, 61, 62 }, .y = { 120, 120, 120 }, .index = 0 }
+{67..70,120,[3]const u8: '799' (source: '799')} day03.PointList{ .x = { 67, 68, 69 }, .y = { 120, 120, 120 }, .index = 0 }
+{72..75,120,[3]const u8: '549' (source: '549')} day03.PointList{ .x = { 72, 73, 74 }, .y = { 120, 120, 120 }, .index = 0 }
+{76..79,120,[3]const u8: '939' (source: '939')} day03.PointList{ .x = { 76, 77, 78 }, .y = { 120, 120, 120 }, .index = 0 }
+{84..87,120,[3]const u8: '120' (source: '120')} day03.PointList{ .x = { 84, 85, 86 }, .y = { 120, 120, 120 }, .index = 0 }
+{97..99,120,[2]const u8: '61' (source: '61')} day03.PointList{ .x = { 97, 98 }, .y = { 120, 120 }, .index = 0 }
+{114..117,120,[3]const u8: '345' (source: '345')} day03.PointList{ .x = { 114, 115, 116 }, .y = { 120, 120, 120 }, .index = 0 }
+{124..127,120,[3]const u8: '778' (source: '778')} day03.PointList{ .x = { 124, 125, 126 }, .y = { 120, 120, 120 }, .index = 0 }
+{130..133,120,[3]const u8: '550' (source: '550')} day03.PointList{ .x = { 130, 131, 132 }, .y = { 120, 120, 120 }, .index = 0 }
+{134..137,120,[3]const u8: '267' (source: '267')} day03.PointList{ .x = { 134, 135, 136 }, .y = { 120, 120, 120 }, .index = 0 }
+{16..19,121,[3]const u8: '699' (source: '699')} day03.PointList{ .x = { 16, 17, 18 }, .y = { 121, 121, 121 }, .index = 0 }
+{31..34,121,[3]const u8: '170' (source: '170')} day03.PointList{ .x = { 31, 32, 33 }, .y = { 121, 121, 121 }, .index = 0 }
+{37..40,121,[3]const u8: '492' (source: '492')} day03.PointList{ .x = { 37, 38, 39 }, .y = { 121, 121, 121 }, .index = 0 }
+{44..46,121,[2]const u8: '61' (source: '61')} day03.PointList{ .x = { 44, 45 }, .y = { 121, 121 }, .index = 0 }
+{109..112,121,[3]const u8: '345' (source: '345')} day03.PointList{ .x = { 109, 110, 111 }, .y = { 121, 121, 121 }, .index = 0 }
+{0..3,122,[3]const u8: '534' (source: '534')} day03.PointList{ .x = { 0, 1, 2 }, .y = { 122, 122, 122 }, .index = 0 }
+{48..51,122,[3]const u8: '144' (source: '144')} day03.PointList{ .x = { 48, 49, 50 }, .y = { 122, 122, 122 }, .index = 0 }
+{53..56,122,[3]const u8: '849' (source: '849')} day03.PointList{ .x = { 53, 54, 55 }, .y = { 122, 122, 122 }, .index = 0 }
+{63..66,122,[3]const u8: '174' (source: '174')} day03.PointList{ .x = { 63, 64, 65 }, .y = { 122, 122, 122 }, .index = 0 }
+{81..84,122,[3]const u8: '219' (source: '219')} day03.PointList{ .x = { 81, 82, 83 }, .y = { 122, 122, 122 }, .index = 0 }
+{96..99,122,[3]const u8: '140' (source: '140')} day03.PointList{ .x = { 96, 97, 98 }, .y = { 122, 122, 122 }, .index = 0 }
+{102..105,122,[3]const u8: '476' (source: '476')} day03.PointList{ .x = { 102, 103, 104 }, .y = { 122, 122, 122 }, .index = 0 }
+{123..126,122,[3]const u8: '970' (source: '970')} day03.PointList{ .x = { 123, 124, 125 }, .y = { 122, 122, 122 }, .index = 0 }
+{8..11,123,[3]const u8: '681' (source: '681')} day03.PointList{ .x = { 8, 9, 10 }, .y = { 123, 123, 123 }, .index = 0 }
+{23..26,123,[3]const u8: '444' (source: '444')} day03.PointList{ .x = { 23, 24, 25 }, .y = { 123, 123, 123 }, .index = 0 }
+{69..72,123,[3]const u8: '413' (source: '413')} day03.PointList{ .x = { 69, 70, 71 }, .y = { 123, 123, 123 }, .index = 0 }
+{73..75,123,[2]const u8: '95' (source: '95')} day03.PointList{ .x = { 73, 74 }, .y = { 123, 123 }, .index = 0 }
+{90..93,123,[3]const u8: '589' (source: '589')} day03.PointList{ .x = { 90, 91, 92 }, .y = { 123, 123, 123 }, .index = 0 }
+{110..113,123,[3]const u8: '229' (source: '229')} day03.PointList{ .x = { 110, 111, 112 }, .y = { 123, 123, 123 }, .index = 0 }
+{116..119,123,[3]const u8: '235' (source: '235')} day03.PointList{ .x = { 116, 117, 118 }, .y = { 123, 123, 123 }, .index = 0 }
+{135..138,123,[3]const u8: '644' (source: '644')} day03.PointList{ .x = { 135, 136, 137 }, .y = { 123, 123, 123 }, .index = 0 }
+{17..19,124,[2]const u8: '28' (source: '28')} day03.PointList{ .x = { 17, 18 }, .y = { 124, 124 }, .index = 0 }
+{51..54,124,[3]const u8: '548' (source: '548')} day03.PointList{ .x = { 51, 52, 53 }, .y = { 124, 124, 124 }, .index = 0 }
+{79..81,124,[2]const u8: '17' (source: '17')} day03.PointList{ .x = { 79, 80 }, .y = { 124, 124 }, .index = 0 }
+{107..109,124,[2]const u8: '33' (source: '33')} day03.PointList{ .x = { 107, 108 }, .y = { 124, 124 }, .index = 0 }
+{128..131,124,[3]const u8: '962' (source: '962')} day03.PointList{ .x = { 128, 129, 130 }, .y = { 124, 124, 124 }, .index = 0 }
+{0..3,125,[3]const u8: '373' (source: '373')} day03.PointList{ .x = { 0, 1, 2 }, .y = { 125, 125, 125 }, .index = 0 }
+{13..16,125,[3]const u8: '500' (source: '500')} day03.PointList{ .x = { 13, 14, 15 }, .y = { 125, 125, 125 }, .index = 0 }
+{45..48,125,[3]const u8: '291' (source: '291')} day03.PointList{ .x = { 45, 46, 47 }, .y = { 125, 125, 125 }, .index = 0 }
+{61..64,125,[3]const u8: '881' (source: '881')} day03.PointList{ .x = { 61, 62, 63 }, .y = { 125, 125, 125 }, .index = 0 }
+{65..68,125,[3]const u8: '296' (source: '296')} day03.PointList{ .x = { 65, 66, 67 }, .y = { 125, 125, 125 }, .index = 0 }
+{96..99,125,[3]const u8: '796' (source: '796')} day03.PointList{ .x = { 96, 97, 98 }, .y = { 125, 125, 125 }, .index = 0 }
+{102..105,125,[3]const u8: '585' (source: '585')} day03.PointList{ .x = { 102, 103, 104 }, .y = { 125, 125, 125 }, .index = 0 }
+{123..126,125,[3]const u8: '802' (source: '802')} day03.PointList{ .x = { 123, 124, 125 }, .y = { 125, 125, 125 }, .index = 0 }
+{136..139,125,[3]const u8: '138' (source: '138')} day03.PointList{ .x = { 136, 137, 138 }, .y = { 125, 125, 125 }, .index = 0 }
+{55..58,126,[3]const u8: '809' (source: '809')} day03.PointList{ .x = { 55, 56, 57 }, .y = { 126, 126, 126 }, .index = 0 }
+{77..80,126,[3]const u8: '417' (source: '417')} day03.PointList{ .x = { 77, 78, 79 }, .y = { 126, 126, 126 }, .index = 0 }
+{81..84,126,[3]const u8: '999' (source: '999')} day03.PointList{ .x = { 81, 82, 83 }, .y = { 126, 126, 126 }, .index = 0 }
+{112..115,126,[3]const u8: '633' (source: '633')} day03.PointList{ .x = { 112, 113, 114 }, .y = { 126, 126, 126 }, .index = 0 }
+{128..131,126,[3]const u8: '322' (source: '322')} day03.PointList{ .x = { 128, 129, 130 }, .y = { 126, 126, 126 }, .index = 0 }
+{6..9,127,[3]const u8: '907' (source: '907')} day03.PointList{ .x = { 6, 7, 8 }, .y = { 127, 127, 127 }, .index = 0 }
+{28..31,127,[3]const u8: '665' (source: '665')} day03.PointList{ .x = { 28, 29, 30 }, .y = { 127, 127, 127 }, .index = 0 }
+{42..45,127,[3]const u8: '731' (source: '731')} day03.PointList{ .x = { 42, 43, 44 }, .y = { 127, 127, 127 }, .index = 0 }
+{60..63,127,[3]const u8: '903' (source: '903')} day03.PointList{ .x = { 60, 61, 62 }, .y = { 127, 127, 127 }, .index = 0 }
+{88..91,127,[3]const u8: '638' (source: '638')} day03.PointList{ .x = { 88, 89, 90 }, .y = { 127, 127, 127 }, .index = 0 }
+{93..96,127,[3]const u8: '662' (source: '662')} day03.PointList{ .x = { 93, 94, 95 }, .y = { 127, 127, 127 }, .index = 0 }
+{121..124,127,[3]const u8: '495' (source: '495')} day03.PointList{ .x = { 121, 122, 123 }, .y = { 127, 127, 127 }, .index = 0 }
+{133..136,127,[3]const u8: '130' (source: '130')} day03.PointList{ .x = { 133, 134, 135 }, .y = { 127, 127, 127 }, .index = 0 }
+{137..138,127,[1]const u8: '9' (source: '9')} day03.PointList{ .x = { 137 }, .y = { 127 }, .index = 0 }
+{16..19,128,[3]const u8: '168' (source: '168')} day03.PointList{ .x = { 16, 17, 18 }, .y = { 128, 128, 128 }, .index = 0 }
+{34..37,128,[3]const u8: '353' (source: '353')} day03.PointList{ .x = { 34, 35, 36 }, .y = { 128, 128, 128 }, .index = 0 }
+{53..56,128,[3]const u8: '639' (source: '639')} day03.PointList{ .x = { 53, 54, 55 }, .y = { 128, 128, 128 }, .index = 0 }
+{77..80,128,[3]const u8: '349' (source: '349')} day03.PointList{ .x = { 77, 78, 79 }, .y = { 128, 128, 128 }, .index = 0 }
+{102..105,128,[3]const u8: '660' (source: '660')} day03.PointList{ .x = { 102, 103, 104 }, .y = { 128, 128, 128 }, .index = 0 }
+{109..112,128,[3]const u8: '914' (source: '914')} day03.PointList{ .x = { 109, 110, 111 }, .y = { 128, 128, 128 }, .index = 0 }
+{115..118,128,[3]const u8: '570' (source: '570')} day03.PointList{ .x = { 115, 116, 117 }, .y = { 128, 128, 128 }, .index = 0 }
+{10..13,129,[3]const u8: '695' (source: '695')} day03.PointList{ .x = { 10, 11, 12 }, .y = { 129, 129, 129 }, .index = 0 }
+{20..23,129,[3]const u8: '679' (source: '679')} day03.PointList{ .x = { 20, 21, 22 }, .y = { 129, 129, 129 }, .index = 0 }
+{49..52,129,[3]const u8: '958' (source: '958')} day03.PointList{ .x = { 49, 50, 51 }, .y = { 129, 129, 129 }, .index = 0 }
+{59..62,129,[3]const u8: '494' (source: '494')} day03.PointList{ .x = { 59, 60, 61 }, .y = { 129, 129, 129 }, .index = 0 }
+{64..67,129,[3]const u8: '369' (source: '369')} day03.PointList{ .x = { 64, 65, 66 }, .y = { 129, 129, 129 }, .index = 0 }
+{126..129,129,[3]const u8: '964' (source: '964')} day03.PointList{ .x = { 126, 127, 128 }, .y = { 129, 129, 129 }, .index = 0 }
+{135..138,129,[3]const u8: '548' (source: '548')} day03.PointList{ .x = { 135, 136, 137 }, .y = { 129, 129, 129 }, .index = 0 }
+{3..6,130,[3]const u8: '826' (source: '826')} day03.PointList{ .x = { 3, 4, 5 }, .y = { 130, 130, 130 }, .index = 0 }
+{15..18,130,[3]const u8: '268' (source: '268')} day03.PointList{ .x = { 15, 16, 17 }, .y = { 130, 130, 130 }, .index = 0 }
+{26..29,130,[3]const u8: '675' (source: '675')} day03.PointList{ .x = { 26, 27, 28 }, .y = { 130, 130, 130 }, .index = 0 }
+{43..46,130,[3]const u8: '136' (source: '136')} day03.PointList{ .x = { 43, 44, 45 }, .y = { 130, 130, 130 }, .index = 0 }
+{70..73,130,[3]const u8: '650' (source: '650')} day03.PointList{ .x = { 70, 71, 72 }, .y = { 130, 130, 130 }, .index = 0 }
+{74..77,130,[3]const u8: '964' (source: '964')} day03.PointList{ .x = { 74, 75, 76 }, .y = { 130, 130, 130 }, .index = 0 }
+{81..84,130,[3]const u8: '728' (source: '728')} day03.PointList{ .x = { 81, 82, 83 }, .y = { 130, 130, 130 }, .index = 0 }
+{85..88,130,[3]const u8: '823' (source: '823')} day03.PointList{ .x = { 85, 86, 87 }, .y = { 130, 130, 130 }, .index = 0 }
+{89..92,130,[3]const u8: '403' (source: '403')} day03.PointList{ .x = { 89, 90, 91 }, .y = { 130, 130, 130 }, .index = 0 }
+{110..113,130,[3]const u8: '842' (source: '842')} day03.PointList{ .x = { 110, 111, 112 }, .y = { 130, 130, 130 }, .index = 0 }
+{114..117,130,[3]const u8: '983' (source: '983')} day03.PointList{ .x = { 114, 115, 116 }, .y = { 130, 130, 130 }, .index = 0 }
+{19..22,131,[3]const u8: '328' (source: '328')} day03.PointList{ .x = { 19, 20, 21 }, .y = { 131, 131, 131 }, .index = 0 }
+{54..57,131,[3]const u8: '519' (source: '519')} day03.PointList{ .x = { 54, 55, 56 }, .y = { 131, 131, 131 }, .index = 0 }
+{62..65,131,[3]const u8: '210' (source: '210')} day03.PointList{ .x = { 62, 63, 64 }, .y = { 131, 131, 131 }, .index = 0 }
+{93..96,131,[3]const u8: '143' (source: '143')} day03.PointList{ .x = { 93, 94, 95 }, .y = { 131, 131, 131 }, .index = 0 }
+{128..131,131,[3]const u8: '241' (source: '241')} day03.PointList{ .x = { 128, 129, 130 }, .y = { 131, 131, 131 }, .index = 0 }
+{133..135,131,[2]const u8: '55' (source: '55')} day03.PointList{ .x = { 133, 134 }, .y = { 131, 131 }, .index = 0 }
+{14..17,132,[3]const u8: '199' (source: '199')} day03.PointList{ .x = { 14, 15, 16 }, .y = { 132, 132, 132 }, .index = 0 }
+{24..27,132,[3]const u8: '526' (source: '526')} day03.PointList{ .x = { 24, 25, 26 }, .y = { 132, 132, 132 }, .index = 0 }
+{32..35,132,[3]const u8: '849' (source: '849')} day03.PointList{ .x = { 32, 33, 34 }, .y = { 132, 132, 132 }, .index = 0 }
+{67..70,132,[3]const u8: '280' (source: '280')} day03.PointList{ .x = { 67, 68, 69 }, .y = { 132, 132, 132 }, .index = 0 }
+{80..83,132,[3]const u8: '261' (source: '261')} day03.PointList{ .x = { 80, 81, 82 }, .y = { 132, 132, 132 }, .index = 0 }
+{84..87,132,[3]const u8: '885' (source: '885')} day03.PointList{ .x = { 84, 85, 86 }, .y = { 132, 132, 132 }, .index = 0 }
+{98..101,132,[3]const u8: '434' (source: '434')} day03.PointList{ .x = { 98, 99, 100 }, .y = { 132, 132, 132 }, .index = 0 }
+{120..123,132,[3]const u8: '610' (source: '610')} day03.PointList{ .x = { 120, 121, 122 }, .y = { 132, 132, 132 }, .index = 0 }
+{51..54,133,[3]const u8: '498' (source: '498')} day03.PointList{ .x = { 51, 52, 53 }, .y = { 133, 133, 133 }, .index = 0 }
+{61..64,133,[3]const u8: '936' (source: '936')} day03.PointList{ .x = { 61, 62, 63 }, .y = { 133, 133, 133 }, .index = 0 }
+{73..76,133,[3]const u8: '831' (source: '831')} day03.PointList{ .x = { 73, 74, 75 }, .y = { 133, 133, 133 }, .index = 0 }
+{103..106,133,[3]const u8: '462' (source: '462')} day03.PointList{ .x = { 103, 104, 105 }, .y = { 133, 133, 133 }, .index = 0 }
+{113..116,133,[3]const u8: '439' (source: '439')} day03.PointList{ .x = { 113, 114, 115 }, .y = { 133, 133, 133 }, .index = 0 }
+{132..135,133,[3]const u8: '443' (source: '443')} day03.PointList{ .x = { 132, 133, 134 }, .y = { 133, 133, 133 }, .index = 0 }
+{10..13,134,[3]const u8: '842' (source: '842')} day03.PointList{ .x = { 10, 11, 12 }, .y = { 134, 134, 134 }, .index = 0 }
+{33..35,134,[2]const u8: '21' (source: '21')} day03.PointList{ .x = { 33, 34 }, .y = { 134, 134 }, .index = 0 }
+{36..39,134,[3]const u8: '307' (source: '307')} day03.PointList{ .x = { 36, 37, 38 }, .y = { 134, 134, 134 }, .index = 0 }
+{57..60,134,[3]const u8: '324' (source: '324')} day03.PointList{ .x = { 57, 58, 59 }, .y = { 134, 134, 134 }, .index = 0 }
+{67..70,134,[3]const u8: '505' (source: '505')} day03.PointList{ .x = { 67, 68, 69 }, .y = { 134, 134, 134 }, .index = 0 }
+{88..91,134,[3]const u8: '315' (source: '315')} day03.PointList{ .x = { 88, 89, 90 }, .y = { 134, 134, 134 }, .index = 0 }
+{53..55,135,[2]const u8: '42' (source: '42')} day03.PointList{ .x = { 53, 54 }, .y = { 135, 135 }, .index = 0 }
+{74..77,135,[3]const u8: '474' (source: '474')} day03.PointList{ .x = { 74, 75, 76 }, .y = { 135, 135, 135 }, .index = 0 }
+{102..104,135,[2]const u8: '50' (source: '50')} day03.PointList{ .x = { 102, 103 }, .y = { 135, 135 }, .index = 0 }
+{105..108,135,[3]const u8: '674' (source: '674')} day03.PointList{ .x = { 105, 106, 107 }, .y = { 135, 135, 135 }, .index = 0 }
+{110..113,135,[3]const u8: '713' (source: '713')} day03.PointList{ .x = { 110, 111, 112 }, .y = { 135, 135, 135 }, .index = 0 }
+{133..135,135,[2]const u8: '27' (source: '27')} day03.PointList{ .x = { 133, 134 }, .y = { 135, 135 }, .index = 0 }
+{8..11,136,[3]const u8: '249' (source: '249')} day03.PointList{ .x = { 8, 9, 10 }, .y = { 136, 136, 136 }, .index = 0 }
+{15..18,136,[3]const u8: '291' (source: '291')} day03.PointList{ .x = { 15, 16, 17 }, .y = { 136, 136, 136 }, .index = 0 }
+{29..32,136,[3]const u8: '448' (source: '448')} day03.PointList{ .x = { 29, 30, 31 }, .y = { 136, 136, 136 }, .index = 0 }
+{33..36,136,[3]const u8: '622' (source: '622')} day03.PointList{ .x = { 33, 34, 35 }, .y = { 136, 136, 136 }, .index = 0 }
+{38..41,136,[3]const u8: '228' (source: '228')} day03.PointList{ .x = { 38, 39, 40 }, .y = { 136, 136, 136 }, .index = 0 }
+{48..51,136,[3]const u8: '308' (source: '308')} day03.PointList{ .x = { 48, 49, 50 }, .y = { 136, 136, 136 }, .index = 0 }
+{60..63,136,[3]const u8: '189' (source: '189')} day03.PointList{ .x = { 60, 61, 62 }, .y = { 136, 136, 136 }, .index = 0 }
+{78..81,136,[3]const u8: '629' (source: '629')} day03.PointList{ .x = { 78, 79, 80 }, .y = { 136, 136, 136 }, .index = 0 }
+{122..125,136,[3]const u8: '594' (source: '594')} day03.PointList{ .x = { 122, 123, 124 }, .y = { 136, 136, 136 }, .index = 0 }
+{127..130,136,[3]const u8: '127' (source: '127')} day03.PointList{ .x = { 127, 128, 129 }, .y = { 136, 136, 136 }, .index = 0 }
+{136..139,136,[3]const u8: '782' (source: '782')} day03.PointList{ .x = { 136, 137, 138 }, .y = { 136, 136, 136 }, .index = 0 }
+{24..27,137,[3]const u8: '817' (source: '817')} day03.PointList{ .x = { 24, 25, 26 }, .y = { 137, 137, 137 }, .index = 0 }
+{56..58,137,[2]const u8: '91' (source: '91')} day03.PointList{ .x = { 56, 57 }, .y = { 137, 137 }, .index = 0 }
+{90..93,137,[3]const u8: '492' (source: '492')} day03.PointList{ .x = { 90, 91, 92 }, .y = { 137, 137, 137 }, .index = 0 }
+{96..99,137,[3]const u8: '400' (source: '400')} day03.PointList{ .x = { 96, 97, 98 }, .y = { 137, 137, 137 }, .index = 0 }
+{108..110,137,[2]const u8: '17' (source: '17')} day03.PointList{ .x = { 108, 109 }, .y = { 137, 137 }, .index = 0 }
+{113..116,137,[3]const u8: '878' (source: '878')} day03.PointList{ .x = { 113, 114, 115 }, .y = { 137, 137, 137 }, .index = 0 }
+{132..135,137,[3]const u8: '950' (source: '950')} day03.PointList{ .x = { 132, 133, 134 }, .y = { 137, 137, 137 }, .index = 0 }
+{3..5,138,[2]const u8: '32' (source: '32')} day03.PointList{ .x = { 3, 4 }, .y = { 138, 138 }, .index = 0 }
+{6..9,138,[3]const u8: '674' (source: '674')} day03.PointList{ .x = { 6, 7, 8 }, .y = { 138, 138, 138 }, .index = 0 }
+{45..48,138,[3]const u8: '610' (source: '610')} day03.PointList{ .x = { 45, 46, 47 }, .y = { 138, 138, 138 }, .index = 0 }
+{62..65,138,[3]const u8: '549' (source: '549')} day03.PointList{ .x = { 62, 63, 64 }, .y = { 138, 138, 138 }, .index = 0 }
+{67..70,138,[3]const u8: '853' (source: '853')} day03.PointList{ .x = { 67, 68, 69 }, .y = { 138, 138, 138 }, .index = 0 }
+{81..83,138,[2]const u8: '96' (source: '96')} day03.PointList{ .x = { 81, 82 }, .y = { 138, 138 }, .index = 0 }
+{119..122,138,[3]const u8: '779' (source: '779')} day03.PointList{ .x = { 119, 120, 121 }, .y = { 138, 138, 138 }, .index = 0 }
+{13..16,139,[3]const u8: '885' (source: '885')} day03.PointList{ .x = { 13, 14, 15 }, .y = { 139, 139, 139 }, .index = 0 }
+{49..52,139,[3]const u8: '600' (source: '600')} day03.PointList{ .x = { 49, 50, 51 }, .y = { 139, 139, 139 }, .index = 0 }
+{53..56,139,[3]const u8: '456' (source: '456')} day03.PointList{ .x = { 53, 54, 55 }, .y = { 139, 139, 139 }, .index = 0 }
+{99..102,139,[3]const u8: '679' (source: '679')} day03.PointList{ .x = { 99, 100, 101 }, .y = { 139, 139, 139 }, .index = 0 }
+{115..117,139,[2]const u8: '16' (source: '16')} day03.PointList{ .x = { 115, 116 }, .y = { 139, 139 }, .index = 0 }
+{126..129,139,[3]const u8: '392' (source: '392')} day03.PointList{ .x = { 126, 127, 128 }, .y = { 139, 139, 139 }, .index = 0 }
+{134..137,139,[3]const u8: '841' (source: '841')} day03.PointList{ .x = { 134, 135, 136 }, .y = { 139, 139, 139 }, .index = 0 }
+part1 answer is: 451782

@@ -92,55 +92,65 @@ const Part = struct {
     idNo: u32,
     pos: usize,
     idx: usize,
-    lastIdx: usize,
+    lastIdx: ?usize,
 
     const Self = @This();
 
-    pub fn coords(self: *Self, width: usize) PointList {
-        var x = self.pos % width;
-        var y = self.pos / width;
-
-        assert(x + self.id.len < width);
+    pub fn coords(self: *Self, board: Board) !PointList {
+        var x = self.pos % board.width;
+        var y = self.pos / board.width;
+        print(
+            "{{{d}..{d},{d},[{d}]const u8: '{s}' (source: '{s}')}} ",
+            .{ x, x + self.id.len, y, self.id.len, self.id, board.source[self.pos .. self.pos + self.id.len] },
+        );
+        assert(x + self.id.len - 1 <= board.width);
 
         return .{
-            .x = util.range(x, x + self.id.len, 1, default_allocator),
-            .y = util.rep(y, self.id.len, default_allocator),
+            .x = try util.range(x, x + self.id.len, 1, default_allocator),
+            .y = try util.rep(y, self.id.len, default_allocator),
         };
     }
 
-    pub fn adjacent(self: *const Self, source: Board, allocator: Allocator) []Point {
-        const pts = self.coords(source.width);
-        const idLen = self.id.len;
+    pub fn adjacent(self: *Self, board: Board, allocator: Allocator) ![]u8 {
+        const pts = try self.coords(board);
+        print("{}\n", .{pts});
+        const partSize = self.id.len;
 
-        const adj = ArrayList(Point).initCapacity(allocator, 2 * idLen + 6);
+        var adj = try ArrayList(u8).initCapacity(allocator, 2 * partSize + 6);
         defer adj.deinit();
 
-        const top = pts.y[0] == 0;
-        const left = pts.x[0] == 0;
-        const right = pts.x[pts.x.len] == source.width - 1;
-        const bottom = pts.y[0] == source.height - 1;
+        const leftCol = pts.x[0];
+        const rightCol = pts.x[partSize - 1];
+        const row = pts.y[0];
+
+        const top = row == 0;
+        const left = leftCol == 0;
+        const right = rightCol == board.width - 1;
+        const bottom = row == board.height - 1;
 
         if (!top) {
-            if (!left) adj.append(.{ .x = pts.x[0] - 1, .y = pts.y[0] - 1 });
-            for (pts.x, pts.y) |x, y| adj.appen(.{ .x = x, .y = y - 1 });
-            if (!right) adj.append(.{ .x = pts.x[idLen] + 1, .y = pts.y[0] - 1 });
+            if (!left) try adj.append(board.getChar(.{ .x = leftCol - 1, .y = row - 1 }));
+            for (pts.x, pts.y) |x, y| try adj.append(board.getChar(.{ .x = x, .y = y - 1 }));
+            if (!right) try adj.append(board.getChar(.{ .x = rightCol + 1, .y = row - 1 }));
         }
 
-        if (!left) adj.append(.{ .x = pts.x[0] - 1, .y = pts.y[0] });
+        if (!left) try adj.append(board.getChar(.{ .x = leftCol - 1, .y = row }));
         // it would be
-        // for (pts.x, pts.y) |x, y| adj.appen(.{ .x = x, .y = y });
+        // for (pts.x, pts.y) |x, y| try adj.append(board.getChar(.{ .x = x, .y = y }));
         // but those are the source points
-        if (!right) adj.append(.{ .x = pts.x[idLen] + 1, .y = pts.y[0] });
+        if (!right) try adj.append(board.getChar(.{ .x = rightCol + 1, .y = row }));
 
         if (!bottom) {
-            if (!left) adj.append(.{ .x = pts.x[0] - 1, .y = pts.y[0] + 1 });
-            for (pts.x, pts.y) |x, y| adj.appen(.{ .x = x, .y = y + 1 });
-            if (!right) adj.append(.{ .x = pts.x[idLen] + 1, .y = pts.y[0] + 1 });
+            if (!left) try adj.append(board.getChar(.{ .x = leftCol - 1, .y = row + 1 }));
+            for (pts.x, pts.y) |x, y| try adj.append(board.getChar(.{ .x = x, .y = y + 1 }));
+            if (!right) try adj.append(board.getChar(.{ .x = rightCol + 1, .y = row + 1 }));
         }
 
         return adj.toOwnedSlice();
     }
 };
+
+const PartsListError = error{ AtCapacity, PeekAfterPushNull };
 
 const PartsList = struct {
     allocator: Allocator,
@@ -157,13 +167,15 @@ const PartsList = struct {
 
     const Self = @This();
 
-    pub fn init(allocator: Allocator, capacity: usize, width: usize) Self {
+    pub fn init(allocator: Allocator, capacity: usize, width: usize) !Self {
         return .{
             .allocator = allocator,
             .capacity = capacity,
             .width = width,
             .id = try allocator.alloc([]const u8, capacity),
+            .idNo = try allocator.alloc(u32, capacity),
             .pos = try allocator.alloc(usize, capacity),
+            .lastIdx = try allocator.alloc(?usize, capacity),
             .id2Idx = StringHashMap(usize).init(allocator),
         };
     }
@@ -175,14 +187,16 @@ const PartsList = struct {
         self.allocator.destroy(self.id2Idx);
     }
 
-    pub fn push(self: *Self, idNo: u32, id: []const u8, pos: usize) !void {
+    pub fn push(self: *Self, idNo: u32, id: []const u8, endPos: usize) !Part {
+        if (self.size >= self.capacity) return PartsListError.AtCapacity;
+        if (self.size > 0) self.index += 1;
+        self.size += 1;
         self.idNo[self.index] = idNo;
         self.id[self.index] = id;
-        self.pos[self.index] = pos;
+        self.pos[self.index] = endPos - id.len;
         self.lastIdx[self.index] = self.id2Idx.get(id);
         try self.id2Idx.put(id, self.index);
-        self.index += 1;
-        self.size += 1;
+        return self.peek() orelse PartsListError.PeekAfterPushNull;
     }
 
     pub fn get(self: *Self, id: []const u8) ?Part {
@@ -205,6 +219,7 @@ const PartsList = struct {
 
     pub fn peek(self: *Self) ?Part {
         if (self.index >= self.size) return null;
+
         return .{
             .id = self.id[self.index],
             .idNo = self.idNo[self.index],
@@ -220,44 +235,67 @@ const PartsList = struct {
 };
 
 const Board = struct {
-    buf: []const u8,
+    source: []const u8,
     width: usize,
     height: usize,
-    delims: []const u8 = ".\n",
-    parts: PartsList,
+    rowTerm: u8,
+    naRune: u8,
+    delims: []const u8,
+    tokens: std.mem.TokenIterator(u8, std.mem.DelimiterType.any),
 
-    pub fn ingestFrom(source: []const u8, delims: []const u8, allocator: Allocator) Board {
-        var width = (indexOf(u8, source, "\n") orelse source.len) + 1;
-        if (width >= source.len) return .{};
-        var parts = PartsList.init(allocator, source.len, width);
-        var height = source.len / width;
-        var tokens = tokenizeAny(u8, data, delims);
-        while (tokens.next()) |token| {
-            var idNo = try parseInt(u32, token, 10) catch continue;
-            parts.push(idNo, token, tokens.index);
-        }
+    const Self = @This();
+
+    pub fn getChar(self: *const Self, pt: Point) u8 {
+        const pos = pt.toPos(self.width);
+        return self.source[pos];
+    }
+
+    pub fn init(allocator: Allocator, source: []const u8, rowTerm: u8, naRune: u8) !Self {
+        const firstLF = indexOf(u8, source, '\n') orelse source.len;
+        const width = firstLF + 1;
+        const height = source.len / width;
+        print(
+            "Board: source.len {d} | w*h: {d}*{d} | first '\\n': {d}\n",
+            .{ source.len, width, height, firstLF },
+        );
+        assert(width < source.len);
+        assert(source.len % width == 0); // len doesn't count the EOF
+        var delims = try std.fmt.allocPrint(allocator, "{c}{c}", .{ naRune, rowTerm });
+        var tokens = tokenizeAny(u8, source, delims);
 
         return .{
-            .buf = source,
+            .source = source,
             .width = width,
             .height = height,
+            .rowTerm = rowTerm,
+            .naRune = naRune,
             .delims = delims,
-            .parts = parts,
+            .tokens = tokens,
         };
     }
 };
 
 pub fn part1() !void {
-    var board = Board.ingestFrom(data, ".\n", default_allocator);
+    var board = try Board.init(default_allocator, data, '\n', '.');
     var sum: u32 = 0;
-    board.parts.reset();
-    while (board.parts.next()) |part| {
-        for (part.adjacent(board, default_allocator)) |pt| {
-            if (!std.mem.eql(u8, data[pt.toPos(board.width)], ".") and indexOf(u8, digits, data[pt.toPos(board.width)]) == null) {
+
+    var parts = try PartsList.init(
+        default_allocator,
+        board.source.len,
+        board.width,
+    );
+
+    while (board.tokens.next()) |token| {
+        var idNo = parseInt(u32, token, 10) catch continue;
+        var part = try parts.push(idNo, token, board.tokens.index);
+        for (try part.adjacent(board, default_allocator)) |cha| {
+            if (cha != '.' and indexOf(u8, digits, cha) == null) {
                 sum += part.idNo;
             }
         }
     }
+
+    print("part1 answer is: {d}", .{sum});
 }
 
 pub fn part2() !void {}
