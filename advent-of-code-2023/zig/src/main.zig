@@ -30,3 +30,7 @@ test "simple test" {
     try list.append(42);
     try std.testing.expectEqual(@as(i32, 42), list.pop());
 }
+
+test "all your tests are belong to us" {
+    _ = @import("test_all.zig");
+}
